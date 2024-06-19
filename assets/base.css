@@ -2560,7 +2560,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 .header__input--container {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   width: 345px;
   height: 45px;
@@ -2569,7 +2569,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
   padding: .25rem;
 }
 
-.search__input--container input {
+.header__input--container input {
   border: none;
   height: inherit;
   width: inherit;
