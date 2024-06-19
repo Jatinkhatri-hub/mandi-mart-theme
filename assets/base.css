@@ -2795,7 +2795,7 @@ details[open] > .header__menu-item .icon-caret {
   transition: opacity var(--duration-default) ease, transform var(--duration-default) ease;
 }
 
-.header__menu-item--img {
+.header__menu-item--icon {
   width: 14px;
   height: 14px;
 }
