@@ -2574,6 +2574,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
   height: inherit;
   width: inherit;
   appearance: none;
+  jus
 }
 
 .search__input--container input:focus {
