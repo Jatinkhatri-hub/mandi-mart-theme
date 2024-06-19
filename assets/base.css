@@ -2559,6 +2559,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
   height: 45px;
   border-radius: 4px;
   background-color: white;
+  padding: .25rem;
 }
 
 .search__input--container input {
