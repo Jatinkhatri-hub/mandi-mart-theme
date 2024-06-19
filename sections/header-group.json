@@ -17,16 +17,24 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Announcement goes here",
+            "text": "Welcome to our store",
+            "link": ""
+          }
+        },
+        "announcement_3fWHWK": {
+          "type": "announcement",
+          "settings": {
+            "text": "test",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_3fWHWK"
       ],
       "settings": {
-        "color_scheme": "scheme-ecda6ff5-6606-4bd5-a767-fb16497ed4e7",
+        "color_scheme": "scheme-1",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
@@ -40,17 +48,17 @@
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
-        "menu_type_desktop": "mega",
+        "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
-        "color_scheme": "scheme-9c3fbe48-a9e9-4581-86b6-6d0c944d7d4f",
+        "color_scheme": "scheme-1",
         "menu_color_scheme": "scheme-1",
         "enable_country_selector": true,
         "enable_language_selector": true,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
-        "padding_top": 8,
-        "padding_bottom": 8
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     }
   },
