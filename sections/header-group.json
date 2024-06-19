@@ -45,6 +45,24 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "menu_item_G9i8mD": {
+          "type": "menu_item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/home.png"
+          }
+        },
+        "menu_item_eYAffM": {
+          "type": "menu_item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/home.png"
+          }
+        }
+      },
+      "block_order": [
+        "menu_item_G9i8mD",
+        "menu_item_eYAffM"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
