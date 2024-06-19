@@ -81,7 +81,7 @@
           >
           {% for block in section.blocks %}
             {% if block.settings.icon %}
-              <img src ="{{ icon  }}">
+              <img src ="{{ block.settings.icon |  asset_url }}">
             {% endif %}
 
           {% endfor %}
