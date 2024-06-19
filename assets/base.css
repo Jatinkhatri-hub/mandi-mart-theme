@@ -2560,7 +2560,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 }
 
 .search__input--container input {
-  
+  border: none;
 }
 
 menu-drawer + .header__search {
