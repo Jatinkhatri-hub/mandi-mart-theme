@@ -79,7 +79,9 @@
               aria-current="page"
             {% endif %}
           >
-          {}
+          {% for block in section.blocks %}
+            
+          {% endfor %}
             <span
               {%- if link.current %}
                 class="header__active-menu-item"
