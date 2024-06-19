@@ -79,11 +79,7 @@
               aria-current="page"
             {% endif %}
           >
-          {% for block in section.blocks %}
-            {% if block.settings.icon %}
-              <img src ="{{ block.settings.icon |  asset_url }}" alt="icon" class="header__menu-item-icon">
-            {% endif %}
-          {% endfor %}
+          
             <span
               {%- if link.current %}
                 class="header__active-menu-item"
