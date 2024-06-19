@@ -2553,7 +2553,8 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 .header__search--container {
   display: flex;
-  background: w;
+  background: white;
+  border: rad;
 }
 
 .header__input--container {
