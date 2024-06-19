@@ -71,7 +71,7 @@
             </details>
           </header-menu>
         {%- else -%}
-          {}
+          {%  assign menu = section.settings.menu %}
           <a
             id="HeaderMenu-{{ link.handle }}"
             href="{{ link.url }}"
