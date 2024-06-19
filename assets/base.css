@@ -2566,7 +2566,10 @@ product-info .loading__spinner:not(.hidden) ~ *,
   border: none;
   height: inherit;
   width: inherit;
+  appearance: none;
 }
+
+.search__input--container
 
 menu-drawer + .header__search {
   display: none;
