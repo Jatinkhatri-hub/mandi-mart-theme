@@ -2559,6 +2559,8 @@ product-info .loading__spinner:not(.hidden) ~ *,
   background-color: white;
 }
 
+.search__input--container
+
 menu-drawer + .header__search {
   display: none;
 }
