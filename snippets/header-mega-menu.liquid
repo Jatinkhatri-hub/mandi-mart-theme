@@ -83,10 +83,11 @@
               aria-current="page"
             {% endif %}
           >
+          {%  if imagePath != blank %} 
+            <img src={{ imagePath }}>
+          {% endif %} 
             <span
-              {%  if imagePath != blank %} 
-                <img src={{ imagePath }}>
-              {% endif %} 
+              
               {%- if link.current %}
                 class="header__active-menu-item"
               {% endif %}
