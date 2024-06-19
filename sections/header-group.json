@@ -34,7 +34,7 @@
         "announcement_3fWHWK"
       ],
       "settings": {
-        "color_scheme": "scheme-cd7db73d-d600-4637-89df-3b8261813d37",
+        "color_scheme": "scheme-1",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
@@ -45,32 +45,14 @@
     },
     "header": {
       "type": "header",
-      "blocks": {
-        "menu_item_G9i8mD": {
-          "type": "menu_item",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/home.png"
-          }
-        },
-        "menu_item_eYAffM": {
-          "type": "menu_item",
-          "settings": {
-            "icon": "shopify:\/\/shop_images\/home.png"
-          }
-        }
-      },
-      "block_order": [
-        "menu_item_G9i8mD",
-        "menu_item_eYAffM"
-      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
-        "color_scheme": "scheme-f9b2c368-b772-412f-8752-4ea1c6cf971c",
-        "menu_color_scheme": "scheme-f9b2c368-b772-412f-8752-4ea1c6cf971c",
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "scheme-1",
         "enable_country_selector": true,
         "enable_language_selector": true,
         "mobile_logo_position": "center",
