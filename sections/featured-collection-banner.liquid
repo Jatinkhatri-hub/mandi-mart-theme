@@ -1,7 +1,24 @@
 {% schema %}
 {
-  "name": "Featured  Banner",
+  "name": "Featured Banner",
   "settings": [
+      {
+        "type": "image_picker",
+        "id": "banner_image",
+        "label": "Banner Image"
+      },
+      {
+        "type": "richtext",
+        "id": "title",
+        "label": "Collection Title",
+        "default": "<p>Collection</p>"
+      },
+      {
+        "type": "url",
+        "id": "collection_link",
+        "label": "link"
+      }
+      
     
     ]
 }
