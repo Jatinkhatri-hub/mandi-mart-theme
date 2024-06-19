@@ -2554,7 +2554,8 @@ product-info .loading__spinner:not(.hidden) ~ *,
 .header__search--container {
   display: flex;
   background: white;
-  border: rad;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 .header__input--container {
