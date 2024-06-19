@@ -2555,8 +2555,8 @@ product-info .loading__spinner:not(.hidden) ~ *,
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  max-width: 345px;
+  wi: 100%;
+  width: 345px;
   height: 45px;
   border-radius: 4px;
   background-color: white;
