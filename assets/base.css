@@ -2552,7 +2552,8 @@ product-info .loading__spinner:not(.hidden) ~ *,
 /* Search */
 
 .search__input--container {
-  wh
+  width: 100%;
+  max-width: ;
 }
 
 menu-drawer + .header__search {
