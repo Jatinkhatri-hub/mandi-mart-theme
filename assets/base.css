@@ -2553,7 +2553,8 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 .search__input--container {
   width: 100%;
-  max-width: ;
+  max-width: 345px;
+  height: ;
 }
 
 menu-drawer + .header__search {
