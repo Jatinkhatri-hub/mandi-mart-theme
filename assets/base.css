@@ -2556,7 +2556,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
   max-width: 345px;
   height: 45px;
   border-radius: 4px;
-  
+  background-color: white;
 }
 
 menu-drawer + .header__search {
