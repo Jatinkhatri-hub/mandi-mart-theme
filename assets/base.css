@@ -2554,6 +2554,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 .search__input--container {
   display: flex;
   justify-content: center;
+  align-items: center;
   max-width: 345px;
   height: 45px;
   border-radius: 4px;
