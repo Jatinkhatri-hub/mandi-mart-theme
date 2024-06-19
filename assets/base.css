@@ -2565,7 +2565,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 .search__input--container input {
   border: none;
   height: inherit;
-  we
+  width: inherit;
 }
 
 menu-drawer + .header__search {
