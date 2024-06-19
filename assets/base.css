@@ -2795,6 +2795,8 @@ details[open] > .header__menu-item .icon-caret {
   transition: opacity var(--duration-default) ease, transform var(--duration-default) ease;
 }
 
+.
+
 .global-settings-popup,
 .header__submenu.global-settings-popup {
   border-radius: var(--popup-corner-radius);
