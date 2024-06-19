@@ -80,7 +80,8 @@
             {% endif %}
           >
           {% for block in section.blocks %}
-            {}
+            {%  assign icon = block.settings.icon  %}
+             
           {% endfor %}
             <span
               {%- if link.current %}
