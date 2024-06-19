@@ -2551,6 +2551,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 
 /* Search */
 
+.header__search
 
 .header__input--container {
   display: flex;
