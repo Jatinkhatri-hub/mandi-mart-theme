@@ -9,7 +9,6 @@
   <ul class="list-menu list-menu--inline" role="list">
     {%- for link in section.settings.menu.links -%}
       <li>
-        <img src="{{/assets/user-icon.svg |  asset_url }}">
         {%- if link.links != blank -%}
           <header-menu>
             <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
@@ -72,7 +71,6 @@
             </details>
           </header-menu>
         {%- else -%}
-          <div>{% render 'icon-user' %}</div>
           <a
             id="HeaderMenu-{{ link.handle }}"
             href="{{ link.url }}"
@@ -81,7 +79,6 @@
               aria-current="page"
             {% endif %}
           >
-            {%  render 'icon-user' %} 
             <span
               {%- if link.current %}
                 class="header__active-menu-item"
