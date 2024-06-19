@@ -2796,7 +2796,8 @@ details[open] > .header__menu-item .icon-caret {
 }
 
 .header__menu-item--img {
-  
+  width: 14px;
+  height: 14px;
 }
 
 
