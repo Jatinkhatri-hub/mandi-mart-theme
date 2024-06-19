@@ -2569,7 +2569,10 @@ product-info .loading__spinner:not(.hidden) ~ *,
   appearance: none;
 }
 
-.search__input--container
+.search__input--container input:focus {
+  outline: none;
+  color: blu;
+}
 
 menu-drawer + .header__search {
   display: none;
