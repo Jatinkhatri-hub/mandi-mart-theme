@@ -13,7 +13,7 @@
     "logo_width": 180,
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
-    "type_body_font": "poppins_n4",
+    "type_body_font": "assistant_n4",
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
@@ -197,28 +197,6 @@
           "button": "#ffffff",
           "button_label": "#334fb4",
           "secondary_button_label": "#ffffff",
-          "shadow": "#121212"
-        }
-      },
-      "scheme-9c3fbe48-a9e9-4581-86b6-6d0c944d7d4f": {
-        "settings": {
-          "background": "#074542",
-          "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#121212",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
-          "shadow": "#121212"
-        }
-      },
-      "scheme-ecda6ff5-6606-4bd5-a767-fb16497ed4e7": {
-        "settings": {
-          "background": "#008780",
-          "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#121212",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
       }
