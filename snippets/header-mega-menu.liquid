@@ -84,7 +84,9 @@
             {% endif %}
           >
             <span
-              {}
+              {%  if imagePath != blank %} 
+              
+              {% endif %} 
               {%- if link.current %}
                 class="header__active-menu-item"
               {% endif %}
