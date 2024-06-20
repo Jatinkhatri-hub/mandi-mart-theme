@@ -9,7 +9,9 @@
 .collection__card--wrapper {
   width: 275px;
   display: flex;
-  ;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .collection__card--img-wrapper {
