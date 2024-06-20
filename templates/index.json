@@ -78,10 +78,29 @@
     },
     "featured_collection_banner_HF7g7A": {
       "type": "featured-collection-banner",
+      "blocks": {
+        "collection_card_bJMUg3": {
+          "type": "collection_card",
+          "settings": {
+            "banner_image": "shopify:\/\/shop_images\/Ellipse_218.png",
+            "title": "<p>Collection<\/p>",
+            "collection": "automated-collection"
+          }
+        },
+        "collection_card_6emkgw": {
+          "type": "collection_card",
+          "settings": {
+            "banner_image": "shopify:\/\/shop_images\/Ellipse_219.png",
+            "title": "<p>Collection<\/p>",
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_card_bJMUg3",
+        "collection_card_6emkgw"
+      ],
       "settings": {
-        "banner_image": "shopify:\/\/shop_images\/Ellipse_218.png",
-        "title": "<p>Collection<\/p>",
-        "collection": "automated-collection"
       }
     },
     "collection_list_LTGk7K": {
