@@ -13,7 +13,7 @@
               {%- if image.width >= 1000 -%}{{image | image_url: width: 1000 }} 1000w,{%- endif -%}
               {%- if image.width >= 1500 -%}{{ image| image_url: width: 1500 }} 1500w,{%- endif -%}
               {%- if image.width >= 3000 -%}{{ image| image_url: width: 3000 }} 3000w,{%- endif -%}
-              {{ card_collection.featured_image | image_url }} {{ image.width }}w
+              {{ image | image_url }} {{ image.width }}w
             "
             src="{{ card_collection.featured_image | image_url: width: 1500 }}"
             sizes="
