@@ -8,6 +8,8 @@
 
 .collection__card--wrapper {
   width: 275px;
+  display: flex;
+  ;
 }
 
 .collection__card--img-wrapper {
