@@ -1,3 +1,6 @@
 .section__collection--wrapper {
-  width: 100;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: ;
 }
