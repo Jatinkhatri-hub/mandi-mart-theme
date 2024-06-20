@@ -1,40 +1,34 @@
-{{ 'collection-card.css' |  asset_url |  stylesheet_tag }}
+{{ 'collection-card.css' | asset_url | stylesheet_tag }}
 
 <div class="section__collection--wrapper">
   <div class="collection__card--wrapper">
-    <a 
-    href="{{ section.settings.collection.url }}">
-    <div class="collection__card--img-wrapper">
-      {{ section.settings.banner_image | image_url: width: 275 | image_tag: sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', class: "collection__card-img" }}
-    </div>
+    <a href="{{ section.settings.collection.url }}">
+      <div class="collection__card--img-wrapper">
+        {{ section.settings.banner_image | image_url: width: 275 | image_tag: sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', class: "collection__card-img" }}
+      </div>
     </a>
     <h2>
-      <a
-        class="collection__card--title"
-        href="{{ section.settings.collection.url }}"
-      >
-      {{ section.settings.title }}
+      <a class="collection__card--title" href="{{ section.settings.collection.url }}">
+        {{ section.settings.title }}
       </a>
     </h2>
   </div>
 </div>
 
 {% schema %}
-{
-  "name": "Category List",
-  "settings": [
+  {
+    "name": "Category List",
+    "settings": [
       {
         "type": "image_picker",
         "id": "banner_image",
         "label": "Banner Image"
-      },
-      {
+      }, {
         "type": "richtext",
         "id": "title",
         "label": "Collection Title",
         "default": "<p>Collection</p>"
-      },
-      {
+      }, {
         "type": "collection",
         "id": "collection",
         "label": "Collection"
@@ -45,7 +39,20 @@
         "type": "collection_card",
         "name": "Collection Card",
         "settings": [
-          
+          {
+            "type": "image_picker",
+            "id": "banner_image",
+            "label": "Banner Image"
+          }, {
+            "type": "richtext",
+            "id": "title",
+            "label": "Collection Title",
+            "default": "<p>Collection</p>"
+          }, {
+            "type": "collection",
+            "id": "collection",
+            "label": "Collection"
+          }
         ]
       }
     ],
@@ -55,5 +62,5 @@
         "category": "Section"
       }
     ]
-}
-{% endschema %} 
+  }
+{% endschema %}
