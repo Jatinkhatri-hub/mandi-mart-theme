@@ -67,12 +67,16 @@
             {%- assign placeholder_image_index = forloop.index0 | modulo: 4 | plus: 1 -%}
           {%- assign placeholder_image = 'collection-apparel-' | append: placeholder_image_index -%}
             {% comment %} {% render 'card-collection',
-                            card_collection: block.settings.collection,
-                            media_aspect_ratio: section.settings.image_ratio,
-                            columns: columns,
-                            placeholder_image: placeholder_image
-                        %} {% endcomment %}
-            {% render 'collection-card-new' %}
+                                          card_collection: block.settings.collection,
+                                          media_aspect_ratio: section.settings.image_ratio,
+                                          columns: columns,
+                                          placeholder_image: placeholder_image
+                                    %} {% endcomment %}
+            {% render 'collection-card-new'
+              , url: block.settings.collection.url
+              , image: block.settings.banner_image
+              , title: block.settings.title
+            %}
           </li>
         {%- endfor -%}
       </ul>
