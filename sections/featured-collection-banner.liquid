@@ -4,7 +4,8 @@
   {% for block in section.blocks %}
     {%  render 'collection-card-new',
       url: block.settings.collection,
-      image: block.settings.image
+      image: block.settings.banner_image,
+      
     %}
   {% endfor %}
 </div>
