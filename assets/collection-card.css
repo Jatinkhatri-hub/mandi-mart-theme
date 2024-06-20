@@ -6,4 +6,7 @@
   gap: 2rem;
 }
 
-.collection__card--wraper
+.collection__card--wrapper {
+  width: 275px;
+  
+}
