@@ -29,5 +29,8 @@
 
 .collection__card--title {
   text-decoration: none;
-  
+  font-size: 37px;
+    font-weight: 700;
+    color: black;
+
 }
