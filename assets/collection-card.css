@@ -28,5 +28,6 @@
 }
 
 .collection__card--title {
+  text-decoration: none;
   
 }
