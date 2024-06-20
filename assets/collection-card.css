@@ -15,22 +15,21 @@
 }
 
 .collection__card--img-wrapper {
-  width: 275px;
+//  width: 275px;
   height: 275px;
   border-radius: 50%;
-  background-color: #3AAFA9;
+  background-color: #3aafa9;
   overflow: hidden;
 }
 
-.collection__card--img {
+/* .collection__card--img {
   width: 275px;
   height: 275px;
-}
+} */
 
 .collection__card--title {
   text-decoration: none;
   font-size: 37px;
-    font-weight: 700;
-    color: black;
-
+  font-weight: 700;
+  color: black;
 }
