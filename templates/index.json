@@ -76,64 +76,18 @@
         "padding_bottom": 36
       }
     },
-    "collection_list_dyXJYD": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_BmMeeV": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "automated-collection"
-          }
-        },
-        "featured_collection_Jqgfkr": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_eVNwb7": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_rzbHd3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "featured_collection_pntFpU": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_BmMeeV",
-        "featured_collection_Jqgfkr",
-        "featured_collection_eVNwb7",
-        "featured_collection_rzbHd3",
-        "featured_collection_pntFpU"
-      ],
+    "featured_collection_banner_FN7df7": {
+      "type": "featured-collection-banner",
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "banner_image": "shopify:\/\/shop_images\/Ellipse_218.png",
+        "title": "<p>Collection<\/p>",
+        "collection_link": ""
       }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "collection_list_dyXJYD"
+    "featured_collection_banner_FN7df7"
   ]
 }
