@@ -13,12 +13,12 @@
 
 .container__product-list {
   gap: 2rem;
-  display: flex;
-  /* display: grid;
+  /* display: flex; */
+  display: grid;
   grid-template-columns: repeat(4, 300px); */
-  /* gap: 1rem;
+  gap: 1rem;
   justify-content: center;
   margin-inline: auto;
-  width: 1440px; */
+  width: 1440px;
 
 }
