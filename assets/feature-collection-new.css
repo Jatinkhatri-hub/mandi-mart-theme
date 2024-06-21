@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: start;
   width: 1440px;
-  
+  margin-inline: auto;
 }
 
 .container__feature-collection--title {
