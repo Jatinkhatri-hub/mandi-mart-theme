@@ -18,7 +18,7 @@
   gap: 2rem;
   /* display: flex; */
   display: grid !important;
-  grid-template-columns: repeat(4, 300px) ;
+  grid-template-columns: repeat(4, 300px) !important;
   gap: 1rem;
   justify-content: start;
   margin-inline: auto;
