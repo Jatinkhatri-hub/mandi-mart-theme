@@ -1,6 +1,6 @@
 
 .container__product-card {
-  width: 300px ;
+  width: 300px !important;
   height: 310px;
   background: #f3f7f7;
   border-radius: 4px;
