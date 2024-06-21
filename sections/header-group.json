@@ -34,7 +34,7 @@
         "announcement_3fWHWK"
       ],
       "settings": {
-        "color_scheme": "scheme-cb60d4d9-294c-4929-ad14-2b9b2f34a997",
+        "color_scheme": "scheme-1",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
@@ -51,10 +51,10 @@
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
-        "color_scheme": "scheme-b02a5db5-3b40-4006-bf74-0798ce20b31f",
+        "color_scheme": "scheme-1",
         "menu_color_scheme": "scheme-1",
-        "enable_country_selector": false,
-        "enable_language_selector": false,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
         "padding_top": 20,

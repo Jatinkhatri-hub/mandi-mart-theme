@@ -1,0 +1,64 @@
+
+.container__product-card {
+  width: 300px;
+  height: 310px;
+  background: #f3f7f7;
+  border-radius: 4px;
+}
+
+.container__product-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+}
+
+.container__product-review {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #737373;
+  font-size: 12px;
+}
+
+.container__product-info {
+  padding-inline: 1.375rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+}
+
+
+.container__review-stars {
+  display: inline-block;
+}
+
+.container__product-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #364241;
+}
+
+.container__price-and-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.375rem;
+}
+
+.container__product-price {
+  font-size: 22px;
+  font-weight: 600;
+  color: #008780;
+}
+
+.atc-button {
+  background-color: #f3f7f7;
+  text-transform: uppercase;
+  font-family: 'Poppins';
+  font-weight: 600;
+  padding: 0.5rem;
+  border-radius: 22px;
+  border: 2px solid #074542;
+  color: #364241;
+}

@@ -1,0 +1,28 @@
+<div class="container__product-card swiper-slide">
+  <div class="container__product-image">
+    <img src="{{ product.featured_image |  img_url: 'medium' }}" class="product-image" />
+  </div>
+  <div class="container__product-info">
+    <div class="container__product-review">
+      <span>Meraki Medicinal</span>
+      <div class="container__review-stars">
+        <img src="assets/Star 1.png" />
+        <img src="assets/Star 1.png" />
+        <img src="assets/Star 1.png" />
+        <img src="assets/Star 1.png" />
+        <img src="assets/Star 1.png" />
+      </div>
+    </div>
+    <div class="container__product-title">
+      <span>{{ product.title }}</span>
+    </div>
+    <div class="container__price-and-button">
+      <div class="container__product-price">
+        <span>{{ product.price }}</span>
+      </div>
+      <div>
+        <button class="atc-button">+ add to cart</button>
+      </div>
+    </div>
+  </div>
+</div>
