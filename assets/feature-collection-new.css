@@ -1,0 +1,24 @@
+.container__feature-collection {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.container__feature-collection--title {
+  font-size: 2.375rem;
+  font-weight: 600;
+  color: #074542;
+}
+
+.container__product-list {
+  gap: 2rem;
+  display: flex;
+  /* display: grid;
+  grid-template-columns: repeat(4, 300px); */
+  /* gap: 1rem;
+  justify-content: center;
+  margin-inline: auto;
+  width: 1440px; */
+
+}
