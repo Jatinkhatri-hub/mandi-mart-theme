@@ -3,7 +3,7 @@
 
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
 {{ 'template-collection.css' | asset_url | stylesheet_tag }}
-{{ 'product-card-new.css' |  asset_url | st }}
+{{ 'product-card-new.css' |  asset_url |  stylesheet_tag }}
 
 {% if section.settings.image_shape == 'blob' %}
   {{ 'mask-blobs.css' | asset_url | stylesheet_tag }}
@@ -114,7 +114,7 @@
               section_id: section.id,
               quick_add: section.settings.quick_add
             %} {% endcomment %}
-             {%  render 'collection-card-new'
+             {%  render 'collect'
               product: product
              %} 
           </li>
