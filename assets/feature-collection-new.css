@@ -5,6 +5,7 @@
   justify-content: start;
   width: 1440px;
   margin-inline: auto;
+  overflow: hidden;
 }
 
 .container__feature-collection--title {
