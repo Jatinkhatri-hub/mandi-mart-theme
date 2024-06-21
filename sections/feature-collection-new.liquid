@@ -9,32 +9,32 @@
     <h2 class="container__feature-collection--title">{{ section.settings.heading }}</h2>
   </div>
   <div class="swiper mySwiper">
-  <div class="container__product-list swiper-wrapper">
-    {% for product in section.settings.collection.products %}
-      {% render 'product-card-new' product: product
-      %}
-    {% endfor %}
-  </div>
-  <div class="swiper-pagination"></div>
+    <div class="container__product-list swiper-wrapper">
+      {% for product in section.settings.collection.products %}
+        {% render 'product-card-new' product: product
+        %}
+      {% endfor %}
+    </div>
+    <div class="swiper-pagination"></div>
   </div>
 </div>
 
-{%  javascript  %} 
+{% javascript %}
 
-let swiper = new Swiper(".mySwiper", {
-  slidesPerView: 4,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  
-  // pagination: {
-  //   el: ".swiper-pagination",
-  //   clickable: true;
-  // },
-});
+  let swiper = new Swiper(".mySwiper", {
+    slidesPerView: 4,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    },
 
-{% endjavascript %} 
+// pagination: {
+// el: ".swiper-pagination",
+// clickable: true;
+// },
+  });
+
+{% endjavascript %}
 
 
 {% schema %}
