@@ -20,7 +20,7 @@
   display: grid;
   grid-template-columns: repeat(4, 300px);
   gap: 1rem;
-  justify-content: center;
+  justify-content: start;
   margin-inline: auto;
   width: 1440px;
 
