@@ -113,7 +113,9 @@
               section_id: section.id,
               quick_add: section.settings.quick_add
             %} {% endcomment %}
-             {%  render 'collection-card-new' %} 
+             {%  render 'collection-card-new'
+              product: product
+             %} 
           </li>
         {%- else -%}
           {%- for i in (1..section.settings.columns_desktop) -%}
