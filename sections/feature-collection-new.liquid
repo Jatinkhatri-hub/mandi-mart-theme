@@ -8,13 +8,14 @@
   <div class="container__feature-collection--title-wrapper">
     <h2 class="container__feature-collection--title">{{ section.settings.heading }}</h2>
   </div>
-
+  <div>
   <div class="container__product-list swiper-wrapper">
     {% for product in section.settings.collection.products %}
       {% render 'product-card-new' product: product
       %}
     {% endfor %}
   </div>
+  
 </div>
 
 
