@@ -118,6 +118,7 @@
         "collection_card_MH37CU",
         "collection_card_pw64Mg"
       ],
+      "disabled": true,
       "settings": {
         "title": "Collections",
         "heading_size": "h1",
