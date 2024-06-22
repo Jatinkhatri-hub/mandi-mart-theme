@@ -152,12 +152,21 @@
             "title": "Meraki Blu",
             "button_text": "Explore Brand"
           }
+        },
+        "brand_collection_9jE4gB": {
+          "type": "brand_collection",
+          "settings": {
+            "collection": "",
+            "title": "Brand",
+            "button_text": "Button"
+          }
         }
       },
       "block_order": [
         "brand_collection_eMgQmP",
         "brand_collection_VzazXN",
-        "brand_collection_yzQERQ"
+        "brand_collection_yzQERQ",
+        "brand_collection_9jE4gB"
       ],
       "settings": {
         "heading": "<p>Explore our Top Brands<\/p>"
