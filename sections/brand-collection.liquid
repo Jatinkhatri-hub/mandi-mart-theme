@@ -15,7 +15,7 @@
     </div>
     <div class="collection__list swiper mySwiper">
       {% for block in section.blocks %}
-        <div class="container__collection-card swiper-wrapper">
+        <div class="container__collection-card swiper-slider">
           <div class="container__product-image">
             <img src="{{ block.settings.product_image |  img_url: 'medium' }}" class="product-image">
           </div>
