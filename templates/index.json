@@ -129,25 +129,28 @@
         "brand_collection_eMgQmP": {
           "type": "brand_collection",
           "settings": {
-            "collection": "",
-            "title": "Brand",
-            "button_text": "Button"
+            "product_image": "shopify:\/\/shop_images\/Untitleddesign_97.png",
+            "collection": "automated-collection",
+            "title": "Neurobiologix",
+            "button_text": "Explore Brand"
           }
         },
         "brand_collection_VzazXN": {
           "type": "brand_collection",
           "settings": {
+            "product_image": "shopify:\/\/shop_images\/Untitleddesign_97.png",
             "collection": "",
-            "title": "Brand",
-            "button_text": "Button"
+            "title": "Neurobiologix",
+            "button_text": "Explore Brand"
           }
         },
         "brand_collection_yzQERQ": {
           "type": "brand_collection",
           "settings": {
+            "product_image": "shopify:\/\/shop_images\/Untitleddesign_4.png",
             "collection": "",
-            "title": "Brand",
-            "button_text": "Button"
+            "title": "Meraki Blu",
+            "button_text": "Explore Brand"
           }
         }
       },
