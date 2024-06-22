@@ -3,7 +3,8 @@
 }
 
 .image-with-text-custom {
-  border-radius: ;
+  border-radius: 18px;
+  overflow: hidden;
 }
 
 .image-with-text .grid__item {
