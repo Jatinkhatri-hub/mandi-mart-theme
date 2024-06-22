@@ -22,7 +22,10 @@
   overflow: visible;
 }
 
-.
+.image-with-text__media-custom img{
+  padding: 1rem;
+  object-fit: contain;
+}
 
 .image-with-text__media--small {
   height: 19.4rem;
