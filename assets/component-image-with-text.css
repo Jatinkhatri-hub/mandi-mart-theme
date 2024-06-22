@@ -386,7 +386,9 @@
   margin-bottom: 1rem;
 }
 
-.image-with-text__custom p
+.image-with-text__text-custom p {
+  opacity: 1;
+}
 
 @media screen and (max-width: 749px) {
   .collapse-padding .image-with-text__grid .image-with-text__content {
