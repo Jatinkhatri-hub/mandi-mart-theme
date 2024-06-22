@@ -393,7 +393,7 @@
 .button--primary-custom {
   border: none;
   border-radius: 22px;
-  --border-o
+  --border-offset: 0;
 }
 
 @media screen and (max-width: 749px) {
