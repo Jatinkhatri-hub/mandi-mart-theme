@@ -156,6 +156,7 @@
         "brand_collection_9jE4gB": {
           "type": "brand_collection",
           "settings": {
+            "product_image": "shopify:\/\/shop_images\/Untitleddesign_4.png",
             "collection": "",
             "title": "Brand",
             "button_text": "Button"
