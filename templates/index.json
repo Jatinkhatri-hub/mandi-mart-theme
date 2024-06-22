@@ -96,7 +96,7 @@
         "button_mRa8iW": {
           "type": "button",
           "settings": {
-            "button_label": "SHOP NOW",
+            "button_label": "Shop Now",
             "button_link": "shopify:\/\/collections",
             "button_style_secondary": false
           }
