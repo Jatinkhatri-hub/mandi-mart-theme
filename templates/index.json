@@ -172,12 +172,30 @@
       "settings": {
         "heading": "<p>Explore our Top Brands<\/p>"
       }
+    },
+    "featured_blog_yphiKg": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
     "image_with_text_NxKJeb",
-    "brand_collection_b9LjQG"
+    "brand_collection_b9LjQG",
+    "featured_blog_yphiKg"
   ]
 }
