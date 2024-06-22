@@ -391,7 +391,8 @@
 }
 
 .button-primary-custom {
-  border
+  border: none
+  b
 }
 
 @media screen and (max-width: 749px) {
