@@ -17,8 +17,8 @@
         "link_list_rgBDB8": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "<strong>Account<\/strong>",
+            "menu": "footer-menu-new"
           }
         }
       },
