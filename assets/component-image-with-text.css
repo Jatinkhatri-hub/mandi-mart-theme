@@ -393,6 +393,7 @@
 .button--primary-custom {
   border: none;
   border-radius: 22px;
+  
 }
 
 @media screen and (max-width: 749px) {
