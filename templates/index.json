@@ -125,12 +125,39 @@
     },
     "brand_collection_b9LjQG": {
       "type": "brand-collection",
+      "blocks": {
+        "brand_collection_eMgQmP": {
+          "type": "brand_collection",
+          "settings": {
+            "collection": "",
+            "title": "Brand",
+            "button_text": "Button"
+          }
+        },
+        "brand_collection_VzazXN": {
+          "type": "brand_collection",
+          "settings": {
+            "collection": "",
+            "title": "Brand",
+            "button_text": "Button"
+          }
+        },
+        "brand_collection_yzQERQ": {
+          "type": "brand_collection",
+          "settings": {
+            "collection": "",
+            "title": "Brand",
+            "button_text": "Button"
+          }
+        }
+      },
+      "block_order": [
+        "brand_collection_eMgQmP",
+        "brand_collection_VzazXN",
+        "brand_collection_yzQERQ"
+      ],
       "settings": {
-        "heading": "<p>Explore our Top Brands<\/p>",
-        "product_image": "shopify:\/\/shop_images\/Untitleddesign_97.png",
-        "collection": "automated-collection",
-        "title": "Neurobiologix",
-        "button_text": "Explore Brand"
+        "heading": "<p>Explore our Top Brands<\/p>"
       }
     }
   },
