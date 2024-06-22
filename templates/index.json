@@ -127,6 +127,7 @@
       "type": "brand-collection",
       "settings": {
         "heading": "<p>Explore our Top Brands<\/p>",
+        "product_image": "shopify:\/\/shop_images\/Untitleddesign_97.png",
         "title": "Brand"
       }
     }
