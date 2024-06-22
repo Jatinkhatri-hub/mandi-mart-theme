@@ -4,7 +4,7 @@
       <h2 class="container__collection-heading">{{ section.settings.heading }}</h2>
     </div>
     <div class="slider">
-      {% for block in block.settings %}
+      {% for block in section.blocks %}
       <div class="container__collection-card slide">
         <div class="container__product-image">
           <img src="{{ block.settings.product_image |  img_url: 'medium' }}" class="product-image">
