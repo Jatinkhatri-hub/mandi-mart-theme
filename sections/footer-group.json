@@ -13,6 +13,18 @@
   "sections": {
     "footer": {
       "type": "footer",
+      "blocks": {
+        "link_list_9bMU78": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>Account<\/strong>",
+            "menu": "footer-menu-new"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_9bMU78"
+      ],
       "settings": {
         "color_scheme": "scheme-6466d7ee-1d4b-4944-81a3-0663a9c9692a",
         "newsletter_enable": false,
