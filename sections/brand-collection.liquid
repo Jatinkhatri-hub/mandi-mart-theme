@@ -12,7 +12,7 @@
           <h2>{{ section.settings.title }}</h2>
         </div>
         <div>
-          <button class="collection-btn">{{ section.settings.button_text }}</button>
+          <a class="collection-btn" href="{{ section.settings.collection.url }}" >{{ section.settings.button_text }}</a>
         </div>
       </div>
     </div>
@@ -90,7 +90,11 @@
         "id": "product_image",
         "label": "Product Image"
       },
-      
+      {
+        "type": "collection",
+        "id": "collection",
+        "label": "collection"
+      },
       {
         "type": "inline_richtext",
         "id": "title",
