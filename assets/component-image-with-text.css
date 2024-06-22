@@ -390,9 +390,9 @@
   opacity: 1;
 }
 
-.button-primary-custom {
+.button--primary-custom {
   border: none;
-  border
+  border-radius: 22px;
 }
 
 @media screen and (max-width: 749px) {
