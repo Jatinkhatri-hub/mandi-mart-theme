@@ -13,26 +13,14 @@
   "sections": {
     "footer": {
       "type": "footer",
-      "blocks": {
-        "link_list_rgBDB8": {
-          "type": "link_list",
-          "settings": {
-            "heading": "<strong>Account<\/strong>",
-            "menu": "footer-menu-new"
-          }
-        }
-      },
-      "block_order": [
-        "link_list_rgBDB8"
-      ],
       "settings": {
-        "color_scheme": "scheme-dce87112-38aa-4dd2-970d-22310df36b0f",
-        "newsletter_enable": false,
-        "newsletter_heading": "",
+        "color_scheme": "scheme-1",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
-        "enable_country_selector": false,
-        "enable_language_selector": false,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
         "payment_enable": true,
         "show_policy": false,
         "margin_top": 0,
