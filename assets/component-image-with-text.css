@@ -394,6 +394,7 @@
   border: none;
   border-radius: 22px;
   --border-offset: 0;
+  font-size: ;
 }
 
 @media screen and (max-width: 749px) {
