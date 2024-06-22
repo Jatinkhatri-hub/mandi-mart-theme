@@ -8,29 +8,31 @@
   <div class="container__collection">
     <div class="collection__heading-container">
       <h2 class="container__collection-heading">{{ section.settings.heading }}</h2>
-      {% comment %} <div class="btn-group">
-        <button class="slider__btn slider__btn--left">{% render 'icon-minus' %}</button>
-        <button class="slider__btn slider__btn--right">{% render 'icon-plus' %}</button>
-      </div> {% endcomment %}
+    {% comment %} <div class="btn-group">
+              <button class="slider__btn slider__btn--left">{% render 'icon-minus' %}</button>
+              <button class="slider__btn slider__btn--right">{% render 'icon-plus' %}</button>
+          </div> {% endcomment %}
     </div>
     <div class="collection__list swiper mySwiper">
       <div class="swiper-wrapper">
-      {% for block in section.blocks %}
-        <div class="container__collection-card swiper-slide">
-          <div class="container__product-image">
-            <img src="{{ block.settings.product_image |  img_url: 'medium' }}" class="product-image">
+        {% for block in section.blocks %}
+          <div class="container__collection-card swiper-slide">
+            <div class="container__product-image">
+              <img src="{{ block.settings.product_image |  img_url: 'medium' }}" class="product-image">
+            </div>
+            <div class="container__product-title">
+              <h2>{{ block.settings.title }}</h2>
+            </div>
+            <div>
+              <a class="collection-btn" href="{{ block.settings.collection.url }}">{{ block.settings.button_text }}</a>
+            </div>
           </div>
-          <div class="container__product-title">
-            <h2>{{ block.settings.title }}</h2>
-          </div>
-          <div>
-            <a class="collection-btn" href="{{ block.settings.collection.url }}">{{ block.settings.button_text }}</a>
-          </div>
-        </div>
-      {% endfor %}
-      
-      <div class="swiper-pagination"></div>
+        {% endfor %}
+
+        <div class="swiper-pagination"></div>
       </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
     </div>
   </div>
 </div>
@@ -112,8 +114,6 @@
 
 
 </style>
-
-
 
 
 <script defer>
