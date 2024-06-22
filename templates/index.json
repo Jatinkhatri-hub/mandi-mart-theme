@@ -80,7 +80,7 @@
       "type": "feature-collection-new",
       "settings": {
         "heading": "<p>Collection<\/p>",
-        "collection": "automated-collection"
+        "collection": "test-collection"
       }
     }
   },
