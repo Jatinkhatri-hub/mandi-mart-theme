@@ -8,10 +8,10 @@
   <div class="container__collection">
     <div class="collection__heading-container">
       <h2 class="container__collection-heading">{{ section.settings.heading }}</h2>
-      <div class="btn-group">
+      {% comment %} <div class="btn-group">
         <button class="slider__btn slider__btn--left">{% render 'icon-minus' %}</button>
         <button class="slider__btn slider__btn--right">{% render 'icon-plus' %}</button>
-      </div>
+      </div> {% endcomment %}
     </div>
     <div class="collection__list slider-new">
       {% for block in section.blocks %}
