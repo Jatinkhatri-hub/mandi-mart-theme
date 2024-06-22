@@ -378,13 +378,15 @@
 }
 
 .image-with-text__heading-custom {
-  font-weight: ;
+  font-weight: 600;
 }
 
 .image-with-text__text p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+
+.image
 
 @media screen and (max-width: 749px) {
   .collapse-padding .image-with-text__grid .image-with-text__content {
