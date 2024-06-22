@@ -390,7 +390,9 @@
   opacity: 1;
 }
 
-
+.button-primary-custom {
+  border
+}
 
 @media screen and (max-width: 749px) {
   .collapse-padding .image-with-text__grid .image-with-text__content {
