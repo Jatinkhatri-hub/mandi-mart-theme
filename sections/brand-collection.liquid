@@ -9,25 +9,25 @@
     <div class="collection__heading-container">
       <h2 class="container__collection-heading">{{ section.settings.heading }}</h2>
       <div class="btn-group">
-        <button class="slider__btn slider__btn--left">{%  render 'icon-minus' %}</button>
-        <button class="slider__btn slider__btn--right">{%  render 'icon-plus' %}</button>
+        <button class="slider__btn slider__btn--left">{% render 'icon-minus' %}</button>
+        <button class="slider__btn slider__btn--right">{% render 'icon-plus' %}</button>
       </div>
     </div>
     <div class="collection__list slider-new">
       {% for block in section.blocks %}
-      <div class="container__collection-card slide">
-        <div class="container__product-image">
-          <img src="{{ block.settings.product_image |  img_url: 'medium' }}" class="product-image">
+        <div class="container__collection-card slide">
+          <div class="container__product-image">
+            <img src="{{ block.settings.product_image |  img_url: 'medium' }}" class="product-image">
+          </div>
+          <div class="container__product-title">
+            <h2>{{ block.settings.title }}</h2>
+          </div>
+          <div>
+            <a class="collection-btn" href="{{ block.settings.collection.url }}">{{ block.settings.button_text }}</a>
+          </div>
         </div>
-        <div class="container__product-title">
-          <h2>{{ block.settings.title }}</h2>
-        </div>
-        <div>
-          <a class="collection-btn" href="{{ block.settings.collection.url }}">{{ block.settings.button_text }}</a>
-        </div>
-      </div>
       {% endfor %}
-      
+
     </div>
   </div>
 </div>
@@ -102,7 +102,7 @@
     font-weight: 600;
   }
 
-  .slider__btn svg{
+  .slider__btn svg {
     width: 20px;
     height: 20px;
   }
@@ -111,6 +111,21 @@
 </style>
 
 <script defer>
+
+  document.addEventListener('DOMContentLoaded', function() {
+  var swiper = new Swiper('.mySwiper', {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+  });
 
     // const slides = document.querySelectorAll(".slide");
     
@@ -173,7 +188,7 @@
           }
         ]
       }
-      
+
     ]
   }
 {% endschema %}
