@@ -10,10 +10,10 @@
           <img src="{{ block.settings.product_image |  img_url: 'medium' }}" class="product-image">
         </div>
         <div class="container__product-title">
-          <h2>{{ section.settings.title }}</h2>
+          <h2>{{ block.settings.title }}</h2>
         </div>
         <div>
-          <a class="collection-btn" href="{{ section.settings.collection.url }}">{{ section.settings.button_text }}</a>
+          <a class="collection-btn" href="{{ block.settings.collection.url }}">{{ section.settings.button_text }}</a>
         </div>
       </div>
       {% endfor %}
