@@ -1,13 +1,11 @@
-
-
 <div class="page-width">
   <div class="container__collection">
     <div class="collection__heading-container">
       <h2 class="container__collection-heading">{{ section.settings.heading }}</h2>
     {% comment %} <div class="btn-group">
-                                            <button class="slider__btn slider__btn--left">{% render 'icon-minus' %}</button>
-                                            <button class="slider__btn slider__btn--right">{% render 'icon-plus' %}</button>
-                              </div> {% endcomment %}
+                                                  <button class="slider__btn slider__btn--left">{% render 'icon-minus' %}</button>
+                                                  <button class="slider__btn slider__btn--right">{% render 'icon-plus' %}</button>
+                                  </div> {% endcomment %}
     </div>
     <div class="collection__list swiper mySwiper">
       <div class="swiper-wrapper">
@@ -25,9 +23,9 @@
           </div>
         {% endfor %}
       </div>
-      <div>  
-      <div class="swiper-btn swiper-button-next"></div>
-      <div class="swiper-btn swiper-button-prev"></div>
+      <div class="btn-group">
+        <div class="swiper-btn swiper-button-next"></div>
+        <div class="swiper-btn swiper-button-prev"></div>
       </div>
       <div class="swiper-pagination"></div>
     </div>
@@ -117,8 +115,7 @@
 
     .collection__list {
       display: grid;
-      grid-template-columns: repeat(2, 1fr) !important
-      ;
+      grid-template-columns: repeat(2, 1fr) !important;
     }
 
     .container__collection-heading {
