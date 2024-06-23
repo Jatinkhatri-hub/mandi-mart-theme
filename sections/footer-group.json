@@ -34,12 +34,19 @@
             "heading": "<strong>Information<\/strong>",
             "menu": "footer-menu-new"
           }
+        },
+        "brand_information_6c4qgL": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
         }
       },
       "block_order": [
         "link_list_9bMU78",
         "link_list_wTmrYM",
-        "link_list_PeHgjP"
+        "link_list_PeHgjP",
+        "brand_information_6c4qgL"
       ],
       "settings": {
         "color_scheme": "scheme-6466d7ee-1d4b-4944-81a3-0663a9c9692a",
