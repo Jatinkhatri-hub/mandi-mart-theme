@@ -2575,6 +2575,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
   width: inherit;
   appearance: none;
   justify-self: start;
+  outline: none;
 }
 
 .search__input--container input:focus {
