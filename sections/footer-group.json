@@ -13,57 +13,14 @@
   "sections": {
     "footer": {
       "type": "footer",
-      "blocks": {
-        "brand_information_fFjirX": {
-          "type": "brand_information",
-          "settings": {
-            "show_social": true
-          }
-        },
-        "link_list_tnp8WU": {
-          "type": "link_list",
-          "settings": {
-            "heading": "<strong>Account<\/strong>",
-            "menu": "footer-menu-new"
-          }
-        },
-        "link_list_cRakrt": {
-          "type": "link_list",
-          "settings": {
-            "heading": "<strong>News<\/strong>",
-            "menu": "footer"
-          }
-        },
-        "link_list_HaLeXR": {
-          "type": "link_list",
-          "settings": {
-            "heading": "<strong>Information<\/strong>",
-            "menu": "information"
-          }
-        },
-        "text_BJkMWi": {
-          "type": "text",
-          "settings": {
-            "heading": "Heading",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "brand_information_fFjirX",
-        "link_list_tnp8WU",
-        "link_list_cRakrt",
-        "link_list_HaLeXR",
-        "text_BJkMWi"
-      ],
       "settings": {
-        "color_scheme": "scheme-406243d2-1b9b-46d3-96aa-79dbbeb72f69",
-        "newsletter_enable": false,
+        "color_scheme": "scheme-1",
+        "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
-        "enable_country_selector": false,
-        "enable_language_selector": false,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
         "payment_enable": true,
         "show_policy": false,
         "margin_top": 0,

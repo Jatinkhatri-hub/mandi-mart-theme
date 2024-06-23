@@ -75,61 +75,10 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
-    },
-    "brand_collection_TgJy4w": {
-      "type": "brand-collection",
-      "blocks": {
-        "brand_collection_XDmXbM": {
-          "type": "brand_collection",
-          "settings": {
-            "product_image": "shopify:\/\/shop_images\/Untitleddesign_97.png",
-            "collection": "",
-            "title": "Neurobiologix",
-            "button_text": "Explore Brand"
-          }
-        },
-        "brand_collection_6qUkVU": {
-          "type": "brand_collection",
-          "settings": {
-            "product_image": "shopify:\/\/shop_images\/Untitleddesign_4.png",
-            "collection": "automated-collection",
-            "title": "Meraki Blu",
-            "button_text": "Explore Brand"
-          }
-        },
-        "brand_collection_DEn7AB": {
-          "type": "brand_collection",
-          "settings": {
-            "product_image": "shopify:\/\/shop_images\/Untitleddesign_97.png",
-            "collection": "hydrogen",
-            "title": "Probiotics",
-            "button_text": "Explore Brand"
-          }
-        },
-        "brand_collection_tDGYfN": {
-          "type": "brand_collection",
-          "settings": {
-            "product_image": "shopify:\/\/shop_images\/Untitleddesign_4.png",
-            "collection": "frontpage",
-            "title": "Metabolics",
-            "button_text": "Explore Brand"
-          }
-        }
-      },
-      "block_order": [
-        "brand_collection_XDmXbM",
-        "brand_collection_6qUkVU",
-        "brand_collection_DEn7AB",
-        "brand_collection_tDGYfN"
-      ],
-      "settings": {
-        "heading": "<p>Explore Our Top Brands<\/p>"
-      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection",
-    "brand_collection_TgJy4w"
+    "featured_collection"
   ]
 }
