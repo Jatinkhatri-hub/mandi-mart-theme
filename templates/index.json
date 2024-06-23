@@ -105,12 +105,22 @@
             "title": "Probiotics",
             "button_text": "Explore Brand"
           }
+        },
+        "brand_collection_tDGYfN": {
+          "type": "brand_collection",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/Untitleddesign_4.png",
+            "collection": "frontpage",
+            "title": "Metabolics",
+            "button_text": "Explore Brand"
+          }
         }
       },
       "block_order": [
         "brand_collection_XDmXbM",
         "brand_collection_6qUkVU",
-        "brand_collection_DEn7AB"
+        "brand_collection_DEn7AB",
+        "brand_collection_tDGYfN"
       ],
       "settings": {
         "heading": "<p>Explore Our Top Brands<\/p>"
