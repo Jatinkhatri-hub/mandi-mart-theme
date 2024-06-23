@@ -17,9 +17,9 @@
         %}
       {% endfor %}
     </div>
-    <div class="swiper-pagination-{{ section.id }}"></div>
-    <div class="swiper-button-next-{{ section.id }}"></div>
-    <div class="swiper-button-prev-{{ section.id }}"></div>
+    <div class="swiper-pagination {{ section.id }}"></div>
+    <div class="swiper-button-next {{ section.id }}"></div>
+    <div class="swiper-button-prev {{ section.id }}"></div>
   </div>
 </div>
 
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
   //    document.addEventListener('shopify:section:load', () => {
     const id = "{{ section.id }}"
 
-    let swiper = new Swiper(`.mySwiper .${}`, {
+    let swiper = new Swiper(`.mySwiper .${id}`, {
     slidesPerView: 2,
     spaceBetween: 30,
     // grid: {
