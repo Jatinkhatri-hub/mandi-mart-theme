@@ -2569,7 +2569,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
   padding: .25rem;
 }
 
-.header__input--container form input:focus {
+.header__input:focus {
   border: none;
   height: inherit;
   width: inherit;
