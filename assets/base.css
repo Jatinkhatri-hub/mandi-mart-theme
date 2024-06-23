@@ -2589,8 +2589,10 @@ product-info .loading__spinner:not(.hidden) ~ *,
   width: 45px;
   height:45px;
   background-color: #cfe8e7;
-  
+
 }
+
+.se
 
 .search__input--container input:focus {
   outline: none;
