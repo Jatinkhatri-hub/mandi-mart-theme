@@ -2569,7 +2569,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
   padding: .25rem;
 }
 
-.header__input--container input {
+.header__input--container form input {
   border: none;
   height: inherit;
   width: inherit;
