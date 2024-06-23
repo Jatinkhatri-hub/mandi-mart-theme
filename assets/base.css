@@ -2593,7 +2593,8 @@ product-info .loading__spinner:not(.hidden) ~ *,
 }
 
 .search-btn svg{
-  width: 14;
+  width: 14px;
+  height: 14px;
 }
 
 .search__input--container input:focus {
