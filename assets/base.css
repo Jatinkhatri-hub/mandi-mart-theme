@@ -2569,6 +2569,10 @@ product-info .loading__spinner:not(.hidden) ~ *,
   padding: .25rem;
 }
 
+.header__input {
+  
+}
+
 .header__input:focus {
   border: none;
   height: inherit;
