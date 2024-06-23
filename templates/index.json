@@ -125,19 +125,11 @@
       "settings": {
         "heading": "<p>Explore Our Top Brands<\/p>"
       }
-    },
-    "feature_collection_new_e4H6Kr": {
-      "type": "feature-collection-new",
-      "settings": {
-        "heading": "<p>Collection<\/p>",
-        "collection": "automated-collection"
-      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "brand_collection_TgJy4w",
-    "feature_collection_new_e4H6Kr"
+    "brand_collection_TgJy4w"
   ]
 }
