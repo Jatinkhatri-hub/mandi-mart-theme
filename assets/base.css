@@ -2572,13 +2572,11 @@ product-info .loading__spinner:not(.hidden) ~ *,
 .header__input {
   border: none;
   outline: none;
-  
+
 }
 
 .header__input:focus {
   border: none;
-  height: inherit;
-  width: inherit;
   appearance: none;
   justify-self: start;
   outline: none;
