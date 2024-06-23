@@ -2597,6 +2597,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
   height:45px;
   background-color: #cfe8e7;
   border: 1px solid #cfe8e7;
+  border
 }
 
 .search-btn svg{
