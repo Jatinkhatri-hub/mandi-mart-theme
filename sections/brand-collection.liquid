@@ -9,9 +9,9 @@
     <div class="collection__heading-container">
       <h2 class="container__collection-heading">{{ section.settings.heading }}</h2>
     {% comment %} <div class="btn-group">
-                                      <button class="slider__btn slider__btn--left">{% render 'icon-minus' %}</button>
-                                      <button class="slider__btn slider__btn--right">{% render 'icon-plus' %}</button>
-                          </div> {% endcomment %}
+                                            <button class="slider__btn slider__btn--left">{% render 'icon-minus' %}</button>
+                                            <button class="slider__btn slider__btn--right">{% render 'icon-plus' %}</button>
+                              </div> {% endcomment %}
     </div>
     <div class="collection__list swiper mySwiper">
       <div class="swiper-wrapper">
@@ -29,10 +29,11 @@
           </div>
         {% endfor %}
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
+
     </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
   </div>
 </div>
 
@@ -150,7 +151,7 @@
 <script defer>
 
   document.addEventListener('DOMContentLoaded', function() {
-//    document.addEventListener('shopify:section:load', () => {
+  //    document.addEventListener('shopify:section:load', () => {
       var swiper = new Swiper('.mySwiper', {
     slidesPerView: 2,
     spaceBetween: 30,
@@ -178,7 +179,7 @@
   console.log(`swiper.update()`);
   swiper.update();
   }, 5000);
- 
+   
     });
   
   //});
