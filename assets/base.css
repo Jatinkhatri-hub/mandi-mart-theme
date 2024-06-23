@@ -2585,6 +2585,11 @@ product-info .loading__spinner:not(.hidden) ~ *,
   border-radius: 4px;
 }
 
+.search__btn {
+  width: 20px;
+  height:
+}
+
 .search__input--container input:focus {
   outline: none;
   border: none;
