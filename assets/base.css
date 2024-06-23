@@ -2451,6 +2451,64 @@ product-info .loading__spinner:not(.hidden) ~ *,
   .header--mobile-left {
     grid-template-columns: auto 2fr 1fr;
   }
+
+  .header__search--container {
+    display: flex;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .header__input--container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 390px;
+    height: 45px;
+    border-radius: 0 0 4px 4px;
+    background-color: white;
+    padding: .25rem;
+    flex-direction: row;
+    overflow: hidden;
+  }
+  
+  .header__input--container form {
+    display: flex;
+    flex-direction: row;
+  
+  }
+  
+  .header__input {
+    border: none;
+    outline: none;
+    width: 345px;
+    height: 45px;
+  
+  }
+  
+  .header__input:focus {
+    border: none;
+    appearance: none;
+    justify-self: start;
+    outline: none;
+    border-radius: 0 0  4px 4px;
+  }
+  
+  .search__btn {
+    width: 45px;
+    height:45px;
+    background-color: #cfe8e7;
+    border: 1px solid #cfe8e7;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+  
+  }
+  
+  .search-btn svg{
+    width: 14px;
+    height: 14px;
+  }
 }
 
 @media screen and (min-width: 990px) {
