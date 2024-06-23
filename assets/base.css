@@ -2568,6 +2568,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
   background-color: white;
   padding: .25rem;
   flex-direction: row;
+  overflow: hidden;
 }
 
 .header__input--container form {
