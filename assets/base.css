@@ -2568,14 +2568,16 @@ product-info .loading__spinner:not(.hidden) ~ *,
   background-color: white;
   padding: .25rem;
 }
-
+/* 
 .header__input--container form input {
   border: none;
   height: inherit;
   width: inherit;
   appearance: none;
   justify-self: start;
-}
+} 
+  
+*/
 
 .search__input--container input:focus {
   outline: none;
