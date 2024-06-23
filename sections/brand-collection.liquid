@@ -27,7 +27,7 @@
           </div>
         {% endfor %}
       </div>
-      <div class="swiper-pagination"></div>
+      <div class="swiper-pagination {{ section.id }}"></div>
     </div>
   </div>
 </div>
@@ -235,7 +235,7 @@
     },
     navigation: {
       prevEl: '.swiper-button-prev .{{ section.id }}',
-      nextEl: '.swiper-button-next {{ section.id }}',
+      nextEl: '.swiper-button-next .{{ section.id }}',
     },
     breakpoints: {
       786: {
