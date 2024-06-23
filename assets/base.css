@@ -2586,8 +2586,8 @@ product-info .loading__spinner:not(.hidden) ~ *,
 }
 
 .search__btn {
-  width: 20px;
-  height:
+  width: px;
+  height:45px
 }
 
 .search__input--container input:focus {
