@@ -1,7 +1,7 @@
-{{ 'swiper.min.css' | asset_url | stylesheet_tag }}
+{% comment %} {{ 'swiper.min.css' | asset_url | stylesheet_tag }}
 {% comment %} 
 {{ 'swiper.min.js' | asset_url | script_tag }} {% endcomment %}
-<script src="{{ 'swiper.min.js' | asset_url }}"></script>
+{% %}<script src="{{ 'swiper.min.js' | asset_url }}"></script> {% endcomment %}
 
 
 <div class="page-width">
