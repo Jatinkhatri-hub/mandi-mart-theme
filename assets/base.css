@@ -2571,7 +2571,9 @@ product-info .loading__spinner:not(.hidden) ~ *,
 }
 
 .header__input--container form {
-  display: f;
+  display: flex;
+  flex-direction: row;
+
 }
 
 .header__input {
@@ -2594,7 +2596,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
   width: 45px;
   height:45px;
   background-color: #cfe8e7;
-
+  border: 1px solid #cfe8e7;
 }
 
 .search-btn svg{
