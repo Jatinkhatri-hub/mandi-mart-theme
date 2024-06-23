@@ -12,9 +12,7 @@
     <form class="search" action="{{ routes.search_url }}">
       <input  type="text"  placeholder="Explore 1000+ Supplements" name="q" value="{{ search.terms |  escape }}" class="header__input" />
       {% comment %} <input type="submit" value="Search"/>  {% endcomment %}
-      <button class="search__btn"><svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false">
-        <use href="#icon-search">
-      </svg></button>
+      
     </form>
   </div>
 <details-modal class="header__search" style="display: none">
