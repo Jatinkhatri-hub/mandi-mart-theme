@@ -2486,7 +2486,13 @@ product-info .loading__spinner:not(.hidden) ~ *,
   
   }
   
-  
+  .header__input:focus {
+    border: none;
+    appearance: none;
+    justify-self: start;
+    outline: none;
+    border-radius: 0 0  4px 4px;
+  }
   
   .search__btn {
     
