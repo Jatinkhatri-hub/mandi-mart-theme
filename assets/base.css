@@ -2570,6 +2570,8 @@ product-info .loading__spinner:not(.hidden) ~ *,
   flex-direction: row;
 }
 
+.heade__input--cont
+
 .header__input {
   border: none;
   outline: none;
