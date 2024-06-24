@@ -62,14 +62,14 @@ document.addEventListener('DOMContentLoaded', function() {
   //    document.addEventListener('shopify:section:load', () => {
     const id = "{{ section.id }}"
 
-    let swiper = new Swiper(`.mySwiper .${id}`, {
+    let swiper = new Swiper(`.mySwiper`, {
     slidesPerView: 2,
     spaceBetween: 30,
     // grid: {
     //       rows: 2,
     // },
     pagination: {
-      el: `.swiper-pagination .${id}`,
+      el: `.swiper-pagination`,
       clickable: true,
     },
     navigation: {
