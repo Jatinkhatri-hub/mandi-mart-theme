@@ -32,7 +32,6 @@
 
   <div class="container__footer">
     {% for block in section.blocks %}
-      <div class="container__menu-columns">
       {% if block.type == "link_list" %}
         <div class="footer-column">
           <h2>{{ block.settings.heading }}</h2>
@@ -42,7 +41,6 @@
             </li>
           {% endfor %}
         </div>
-      </div>
       {% elsif block.type == 'container' %}
         <div class="container__disclaimer-info" style="background: {{ block.settings.container_color }};">
           <h2 class="disclaimer-heading" style="color: {{ block.settings.font_color }};">{{ block.settings.disclaimer_heading }}</h2>
