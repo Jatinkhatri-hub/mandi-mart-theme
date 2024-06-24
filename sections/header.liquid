@@ -1,15 +1,15 @@
-<header class="container__nav-bar">
+<header class="container__nav-bar color-{{ section.settings.color_scheme }}">
   {% comment %} <a class="menu-drawer-btn">{% render 'icon-hamburger' %}</a> {% endcomment %}
   <a href="/" class="header__logo">
     <img src="{{ section.settings.brand_logo |  img_url: 'medium' }}" alt="{{ site.name }}">
   </a>
 
   <ul class="header-nav">
-{% for link in section.settings.navigation.links %} 
-  <li class="nav-link">
-    <a href="{{ link.url }}">{{ link.title }}</a>
-  </li>
-{% endfor %}
+    {% for link in section.settings.navigation.links %}
+      <li class="nav-link">
+        <a href="{{ link.url }}">{{ link.title }}</a>
+      </li>
+    {% endfor %}
   </ul>
 
 </header>
@@ -18,7 +18,7 @@
 <style>
   /* Editable Css */
   .header__logo {
-    width: {{ section.settings.logo_width }}px; 
+    width: {{ section.settings.logo_width }}px;
   }
 
 </style>
@@ -49,16 +49,15 @@
 </style>
 
 {% schema %}
-{
-  "name": "Header",
-  "class": "section-header",
-  "settings": [
+  {
+    "name": "Header",
+    "class": "section-header",
+    "settings": [
       {
         "type": "image_picker",
         "id": "brand_logo",
         "label": "Header Logo"
-      },
-      {
+      }, {
         "type": "range",
         "id": "logo_width",
         "label": "Logo Width",
@@ -66,19 +65,17 @@
         "min": 20,
         "max": 300,
         "step": 5
-      },
-      {
+      }, {
         "type": "link_list",
         "id": "navigation",
         "label": "Navigation Menu",
         "default": "main-menu"
-      },
-      {
-      "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "t:sections.all.colors.label",
-      "default": "scheme-1"
+      }, {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "scheme-1"
       }
     ]
-}
+  }
 {% endschema %}
