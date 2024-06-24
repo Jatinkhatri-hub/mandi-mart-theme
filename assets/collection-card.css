@@ -5,6 +5,7 @@
   flex-direction: row;
   gap: 2rem;
   flex-wrap: wrap;
+  padding-block: 2rem;
 }
 
 .collection__card--wrapper {
