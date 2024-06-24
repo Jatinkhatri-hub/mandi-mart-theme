@@ -21,8 +21,8 @@
           {%  render 'icon-account' %} 
         </a>
       {%- endif -%}
-      <a href="{{ routers.cart_url }}" class="icon-cart">
-        {% render 'icon-cart' %}
+      <a href="{{}} }}" class="icon-cart">
+        {% render 'icon-cart-empty' %}
       </a>
     </div>
   </div>
@@ -197,7 +197,8 @@
 
     .container__mobile-icon {
       display: flex;
-      flex-direction: rw;
+      flex-direction: row;
+      
       justify-content: center;
       align-items: center;
       gap: .5rem;
