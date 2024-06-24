@@ -20,7 +20,11 @@
           <li class="mega__nav-link">
             <a href="{{ link.url }}">{{ link.title }}</a>
 
+        {% if link.links != blank %} 
+          <ul>
             
+          </ul>
+        {% endif %}
           </li>
         {% endfor %}
       </ul>
