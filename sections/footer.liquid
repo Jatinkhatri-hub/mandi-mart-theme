@@ -57,7 +57,7 @@
           <div class="container__payment-type">
             <ul class="payment-type__list">
               {% for type in shop.enabled_payment_types %} 
-                <li class="">
+                <li class="payment-type__icon">
                   {{ type |  payment_type_svg_tag: class: 'icon icon--full-color' }}
                 </li>
               {% endfor %}
