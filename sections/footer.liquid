@@ -6,7 +6,7 @@
           <h2>{{ block.settings.heading }}</h2>
           {% for link in block.settings.menu.links %}
             <li>
-              <a href="{{ link.url }}"></a>
+              <a href="{{ link.url }}">{{ link.title }}</a>
             </li>
           {% endfor %}
         </div>
