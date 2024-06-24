@@ -44,7 +44,7 @@
       {% elsif block.type == 'container' %}
         <div class="container__disclaimer-info">
           <h2 class="disclaimer-heading" style="color: {{ block.settings.font_color }};">{{ block.settings.disclaimer_heading }}</h2>
-          <p class="disclaimer-info">{{ block.settings.details }}</p>
+          <p class="disclaimer-info" color: {{ block.settings.font_color }};>{{ block.settings.details }}</p>
         </div>
       {% elsif block.type == 'brand-info'%}
         <div class="container__brand-details">
