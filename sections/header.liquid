@@ -88,7 +88,7 @@
   }
 
   .nav-active {
-    transform: none;
+    transform: 0;
   }
 
   .mega__nav-link a {
@@ -140,7 +140,8 @@
 
 <script>
   document.querySelector('.menu-drawer-btn').addEventListener('click', function() {
-    document.querySelector('.mega-menu__nav').classList.toggle('nav-active')
+    document.querySelector('.mega-menu__nav').classList.toggle('nav-active');
+    console.log('clicked');
   }
 );
 
