@@ -1,12 +1,12 @@
 <footer class="footer">
   <div class="container__footer">
-{% for block in section.blocks %} 
-  
-{% endfor %}
+    {% for block in section.blocks %}
+      {}
+    {% endfor %}
   </div>
 </footer>
 
-{%  schema  %}  
+{% schema %}
   {
     "name": "Footer",
     "blocks": [
@@ -19,16 +19,14 @@
             "id": "heading",
             "default": "Quick links",
             "label": "Menu Heading"
-          },
-          {
+          }, {
             "type": "link_list",
             "id": "menu",
             "default": "footer",
             "label": "menu"
           }
         ]
-      },
-      {
+      }, {
         "type": "container",
         "name": "Disclaimer",
         "settings": [
@@ -37,15 +35,14 @@
             "id": "disclaimer_heading",
             "default": "Heading",
             "label": "Heading"
-          },{
-            "type":"textarea",
+          }, {
+            "type": "textarea",
             "id": "details",
             "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "label": "Paragraph"
           }
         ]
-      },
-      {
+      }, {
         "type": "brand-info",
         "name": "Brand Info",
         "settings": [
@@ -53,8 +50,7 @@
             "type": "image_picker",
             "id": "brand_logo",
             "label": "Brand Logo"
-          },
-          {
+          }, {
             "type": "textarea",
             "id": "copyright",
             "default": "Copyright © 2024, Mandi Mart.",
