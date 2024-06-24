@@ -18,9 +18,10 @@
 
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}">
-          {%  render 'icon-accout' %} 
+          {%  render 'icon-account' %} 
         </a>
       {%- endif -%}
+      <a></a>
     </div>
   </div>
   {% if section.settings.mega_navbar != blank %}
