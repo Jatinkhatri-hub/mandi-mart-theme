@@ -17,7 +17,7 @@
       <a  class="mobile-search-icon">{% render 'icon-search' %}</a>
 
       {%- if shop.customer_accounts_enabled -%}
-        <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="icon">
+        <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="icon-account">
           {%  render 'icon-account' %} 
         </a>
       {%- endif -%}
