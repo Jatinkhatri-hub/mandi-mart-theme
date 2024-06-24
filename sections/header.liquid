@@ -22,7 +22,8 @@
 
         {% if link.links != blank %} 
           <ul>
-            
+        {% for child in link.links %}
+        {% endfor %}
           </ul>
         {% endif %}
           </li>
