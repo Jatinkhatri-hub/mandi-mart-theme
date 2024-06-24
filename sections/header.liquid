@@ -15,7 +15,7 @@
   </div>
   {% if section.settings.mega_navbar != blank %}
     <div class="mega-menu__nav-bar color-{{ section.settings.menu_color_scheme }}">
-      <ul class="mega-menu__nav">
+      <ul class="mega-menu__nav nav-disabled">
         {% for link in section.settings.mega_navbar.links %}
           <li class="mega__nav-link">
             <a href="{{ link.url }}">{{ link.title }}</a>
@@ -119,7 +119,6 @@
       padding-top: 2rem;
       background-color: rgb(var(--color-background));
       z-index: 10;
-      transform: translateX(-100%);
       transition: 0.4s transform;
       gap: 2rem;
     }
