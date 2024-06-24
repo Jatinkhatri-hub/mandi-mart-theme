@@ -73,17 +73,16 @@
 <style>
 
   .container__footer {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     gap: 60px;
     padding: 4rem;
-    justify-content: space-between;
-    /* display: grid;
+    justify-content: space-between; */
+    display: grid;
     width: 100%;
     grid-template-areas: 
-    "brand menu disclaimer"
+    "brand menu disclamer"
     ;
-    grid-template-columns: repeat(3, 1fr); */
   }
 
   .footer-padding-top {
@@ -102,7 +101,13 @@
     color: rgb(var(--color-foreground));
   }
 
-  
+  .footer-column {
+    grid-area: icon;
+  }
+
+  .container__disclaimer-info {
+    grid-area: ;
+  }
 
   .
   .container__disclaimer-info {
