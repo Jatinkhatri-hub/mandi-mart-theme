@@ -22,10 +22,10 @@
   overflow: hidden;
 }
 
-/* .collection__card--img {
+ .collection__card--img {
   width: 275px;
   height: 275px;
-} */
+} 
 
 .collection__card--title {
   text-decoration: none;
