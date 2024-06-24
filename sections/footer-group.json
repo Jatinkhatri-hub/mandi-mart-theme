@@ -41,13 +41,21 @@
             "disclaimer_heading": "Disclaimer",
             "details": "Products sold here are not intended to diagnose, prevent, treat or cure any disease. Please consult your health practitioner before use."
           }
+        },
+        "brand_info_EahEjT": {
+          "type": "brand-info",
+          "settings": {
+            "brand_logo": "shopify:\/\/shop_images\/image_15_1.png",
+            "copyright": "Copyright © 2024, Mandi Mart. All Rights Reserved.\u2028Member of the Federation of Small Businesses : VAT No. 907545906"
+          }
         }
       },
       "block_order": [
         "link_list_NpmeKV",
         "link_list_8fWgFJ",
         "link_list_97hFnL",
-        "container_npdMcU"
+        "container_npdMcU",
+        "brand_info_EahEjT"
       ],
       "settings": {
       }
