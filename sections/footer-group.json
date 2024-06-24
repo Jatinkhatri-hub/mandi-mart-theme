@@ -20,10 +20,26 @@
             "heading": "<strong>Account<\/strong>",
             "menu": "footer-menu-new"
           }
+        },
+        "link_list_8fWgFJ": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>News<\/strong>",
+            "menu": "footer"
+          }
+        },
+        "link_list_97hFnL": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>Information<\/strong>",
+            "menu": "information"
+          }
         }
       },
       "block_order": [
-        "link_list_NpmeKV"
+        "link_list_NpmeKV",
+        "link_list_8fWgFJ",
+        "link_list_97hFnL"
       ],
       "settings": {
       }
