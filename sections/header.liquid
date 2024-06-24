@@ -1,18 +1,18 @@
 <header class="container__nav-bar color-{{ section.settings.color_scheme }}">
   <div class="main__nav-bar">
-  <a class="menu-drawer-btn">{% render 'icon-hamburger' %}</a>
-  <a href="/" class="header__logo">
-    <img src="{{ section.settings.brand_logo |  img_url: 'medium' }}" alt="{{ site.name }}">
-  </a>
+    <a class="menu-drawer-btn">{% render 'icon-hamburger' %}</a>
+    <a href="/" class="header__logo">
+      <img src="{{ section.settings.brand_logo |  img_url: 'medium' }}" alt="{{ site.name }}">
+    </a>
 
-  <ul class="header-nav">
-    {% for link in section.settings.navigation.links %}
-      <li class="nav-link">
-        <a href="{{ link.url }}">{{ link.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
+    <ul class="header-nav">
+      {% for link in section.settings.navigation.links %}
+        <li class="nav-link">
+          <a href="{{ link.url }}">{{ link.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
 </header>
 
 
