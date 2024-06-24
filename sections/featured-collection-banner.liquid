@@ -1,6 +1,6 @@
 {{ 'collection-card.css' | asset_url | stylesheet_tag }}
 
-<div class="section__collection--wrapper">
+<div class="section__collection--wrapper page-width">
   {% for block in section.blocks %}
     {%  render 'collection-card-new',
       url: block.settings.collection.url,
