@@ -72,7 +72,7 @@
 
 @media screen and (min-media){ 
 
- {
+ .container__product-card{
   width: 180px;
 
 }
