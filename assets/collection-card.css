@@ -40,7 +40,11 @@
   .collection__card--img-wrapper {
     width: 160px;
     height: 160px;
-    
+
+  }
+
+  .collection__card--title {
+    font-size: 20px;
   }
   
 }
