@@ -21,7 +21,7 @@
             <a href="{{ link.url }}">{{ link.title }}</a>
 
         {% if link.links != blank %} 
-          <ul class="mega-menu">
+          <ul class="mega-menu__sub">
           {% for child in link.links %}
             <li class="mega-menu__sub-item">
               <a href="{{ child.url }}">{{ child.title }}</a>
@@ -64,6 +64,8 @@
   .header__logo {
     display: block;
   }
+
+  
 
   .header-nav {
     display: flex;
