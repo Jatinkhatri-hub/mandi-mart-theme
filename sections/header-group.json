@@ -20,13 +20,21 @@
             "text": "Welcome to our store",
             "link": ""
           }
+        },
+        "announcement_3fWHWK": {
+          "type": "announcement",
+          "settings": {
+            "text": "test",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_3fWHWK"
       ],
       "settings": {
-        "color_scheme": "scheme-e9a3004c-ff46-42ce-9585-de156293797a",
+        "color_scheme": "scheme-1",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
@@ -39,14 +47,14 @@
       "type": "header",
       "settings": {
         "logo_position": "middle-left",
-        "menu": "mega-menu",
-        "menu_type_desktop": "mega",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
-        "color_scheme": "scheme-0fdeaabb-c3a1-4a15-8668-a3e8bc78730d",
+        "color_scheme": "scheme-1",
         "menu_color_scheme": "scheme-1",
-        "enable_country_selector": false,
-        "enable_language_selector": false,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
         "padding_top": 20,
