@@ -50,7 +50,8 @@
         "logo_width": 205,
         "navigation": "main-menu",
         "mega_navbar": "mega-menu",
-        "color_scheme": "scheme-3"
+        "color_scheme": "scheme-23e98286-943c-4da5-a263-eaad340b7f87",
+        "menu_color_scheme": "scheme-1"
       }
     }
   },
