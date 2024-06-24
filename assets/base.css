@@ -2634,9 +2634,9 @@ product-info .loading__spinner:not(.hidden) ~ *,
   appearance: none;
 }
 
-.icon-search {
+/* .icon-search {
   color: black;
-}
+} */
 
 menu-drawer + .header__search {
   display: none;
