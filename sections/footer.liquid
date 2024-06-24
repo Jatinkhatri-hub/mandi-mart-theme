@@ -4,7 +4,9 @@
       {% if block.type == "link_list" %}
         <div class="footer-column">
           <h2>{{ block.settings.heading }}</h2>
-          {}
+          {% for link in block.settings.menu.links %}
+
+          {% endfor %}
         </div>
       {% endif %}
     {% endfor %}
