@@ -2662,7 +2662,7 @@ menu-drawer + .header__search {
 .header__search {
   display: inline-flex;
   line-height: 0;
-  background: #cfe8e7;
+  /* background: #cfe8e7; */
   border: none;
 }
 
