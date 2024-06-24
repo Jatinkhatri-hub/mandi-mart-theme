@@ -21,10 +21,10 @@
             <a href="{{ link.url }}">{{ link.title }}</a>
 
         {% if link.links != blank %} 
-          <ul>
+          <ul class="mega-menu">
           {% for child in link.links %}
             <li class="mega-menu__sub-item">
-              <a href="{{ child.url }}">{{ chi }}</a>
+              <a href="{{ child.url }}">{{ child.title }}</a>
 
             </li>
           {% endfor %}
