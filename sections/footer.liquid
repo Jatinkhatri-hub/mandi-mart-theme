@@ -58,7 +58,7 @@
             <ul>
               {% for type in shop.enabled_payment_types %} 
                 <li>
-                  {{ type  }}
+                  {{ type | pay }}
                 </li>
               {% endfor %}
             </ul>
