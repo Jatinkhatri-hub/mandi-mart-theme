@@ -55,9 +55,9 @@
             <p>{{ block.settings.copyright }}</p>
           </div>
           <div class="container__payment-type">
-            <ul class="payment-type">
+            <ul class="payment-type__list">
               {% for type in shop.enabled_payment_types %} 
-                <li>
+                <li class="">
                   {{ type |  payment_type_svg_tag: class: 'icon icon--full-color' }}
                 </li>
               {% endfor %}
