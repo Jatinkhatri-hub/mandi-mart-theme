@@ -7,16 +7,8 @@
   Usage:
   {% render 'header-search', input_id: 'My-Id'%}
 {% endcomment %}
-<div class="header__search--container">
-  <div class="header__input--container">
-    <form class="search" action="{{ routes.search_url }}">
-      <input  type="text"  placeholder="Explore 1000+ Supplements" name="q" value="{{ search.terms |  escape }}" class="header__input" />
-      {% comment %} <input type="submit" value="Search"/>  {% endcomment %}
-       <button class="search__btn" type="submit" value="Search">{%  render 'icon-search' %}</button>
-      
-    </form>
-  </div>
-<details-modal class="header__search" style="display: none">
+
+<details-modal class="header__search">
   <details>
     <summary
       class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle"
@@ -114,4 +106,3 @@
     </div>
   </details>
 </details-modal>
-</div>
