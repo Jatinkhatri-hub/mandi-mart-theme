@@ -12,6 +12,8 @@
         </li>
       {% endfor %}
     </ul>
+
+    <div class="mobile"></div>
   </div>
   {% if section.settings.mega_navbar != blank %}
     <div class="mega-menu__nav-bar color-{{ section.settings.menu_color_scheme }}">
@@ -157,7 +159,9 @@
 
   @media screen and (max-width: 896px) {
 
-    .header
+    .header-nav {
+      display: none;
+    }
     .mega-menu__nav {
       position: fixed;
       top: 0;
