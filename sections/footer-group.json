@@ -34,12 +34,20 @@
             "heading": "<strong>Information<\/strong>",
             "menu": "information"
           }
+        },
+        "container_npdMcU": {
+          "type": "container",
+          "settings": {
+            "disclaimer_heading": "Disclaimer",
+            "details": "Products sold here are not intended to diagnose, prevent, treat or cure any disease. Please consult your health practitioner before use."
+          }
         }
       },
       "block_order": [
         "link_list_NpmeKV",
         "link_list_8fWgFJ",
-        "link_list_97hFnL"
+        "link_list_97hFnL",
+        "container_npdMcU"
       ],
       "settings": {
       }
