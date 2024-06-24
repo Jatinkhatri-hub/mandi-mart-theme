@@ -37,8 +37,10 @@
 }
 
 @media screen and (max-width: 769px){
-  .collection__card--img-wrapper [
+  .collection__card--img-wrapper {
+    width: 160px;
+    height: 160px;
     
-  ]
+  }
   
 }
