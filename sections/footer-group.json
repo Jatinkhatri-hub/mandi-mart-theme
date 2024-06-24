@@ -46,7 +46,9 @@
           "type": "container",
           "settings": {
             "disclaimer_heading": "Disclaimer",
-            "details": "Products sold here are not intended to diagnose, prevent, treat or cure any disease. Please consult your health practitioner before use."
+            "details": "Products sold here are not intended to diagnose, prevent, treat or cure any disease. Please consult your health practitioner before use.",
+            "container_color": "#074542",
+            "font_color": "#ffffff"
           }
         }
       },
