@@ -4,6 +4,7 @@
   justify-content: center;
   flex-direction: row;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .collection__card--wrapper {
@@ -23,10 +24,10 @@
   display: flex;
 }
 
- .collection__card--img {
+ /* .collection__card--img {
   width: 275px;
   height: 275px;
-} 
+}  */
 
 .collection__card--title {
   text-decoration: none;
