@@ -6,8 +6,8 @@
 
   <ul class="header-nav">
 {% for link in section.settings.navigation.links %} 
-  <li>
-    <a href="{{ link.url }}">{}</a>
+  <li class="">
+    <a href="{{ link.url }}">{{ link.title }}</a>
   </li>
 {% endfor %}
   </ul>
