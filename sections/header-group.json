@@ -47,7 +47,9 @@
       "type": "header",
       "settings": {
         "brand_logo": "shopify:\/\/shop_images\/image_15_1.png",
-        "logo_width": 205
+        "logo_width": 205,
+        "navigation": "main-menu",
+        "color_scheme": "scheme-1"
       }
     }
   },
