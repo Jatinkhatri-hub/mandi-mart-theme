@@ -9,43 +9,43 @@
 */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "hero_carousel_jUMLBp": {
+      "type": "hero-carousel",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "image_cUyxzL": {
+          "type": "image",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "image": "shopify:\/\/shop_images\/yellow-winner-podium-pedestal-showcase-product-space-presentation-background-3d-rendering_copy_3_466d1b3a-ada9-4e38-81e6-8da3eeb41cbe.png",
+            "alt": "Slide",
+            "carousel_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+            "carousel_sub_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, architecto. Atque voluptate delectus deleniti labore laborum?",
+            "carousel_list_item_1": "Lorem ipsum dolor",
+            "carousel_list_item_2": "Lorem ipsum dolor",
+            "carousel_list_item_3": "Lorem ipsum dolor",
+            "carousel_button_text": "CTA TEXT",
+            "carousel_alignment": "left"
           }
         },
-        "button": {
-          "type": "buttons",
+        "image_q7y9KA": {
+          "type": "image",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
+            "alt": "Slide",
+            "carousel_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
+            "carousel_sub_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, architecto. Atque voluptate delectus deleniti labore laborum?",
+            "carousel_list_item_1": "Lorem ipsum dolor",
+            "carousel_list_item_2": "Lorem ipsum dolor",
+            "carousel_list_item_3": "Lorem ipsum dolor",
+            "carousel_button_text": "CTA TEXT",
+            "carousel_alignment": "left"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "image_cUyxzL",
+        "image_q7y9KA"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
       }
     },
     "featured_collection": {
@@ -78,7 +78,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "hero_carousel_jUMLBp",
     "featured_collection"
   ]
 }
