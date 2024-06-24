@@ -42,7 +42,7 @@
           {% endfor %}
         </div>
       {% elsif block.type == 'container' %}
-        <div class="container__disclaimer-info" style="{{ block.settings.f }}">
+        <div class="container__disclaimer-info" style="{{ block.settings.background_color }}">
           <h2 class="disclaimer-heading" style="color: {{ block.settings.font_color }};">{{ block.settings.disclaimer_heading }}</h2>
           <p class="disclaimer-info" color: {{ block.settings.font_color }};>{{ block.settings.details }}</p>
         </div>
