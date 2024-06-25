@@ -19,8 +19,13 @@
         {%  assign index8 = forloop.index0 |  modulo: 8 %}
         {%  assign index2 = forloop.index0 | modulo: 2 %} 
         {% if index8 == 0 %}
-          <div class="swiper-slide ">
+          <div class="swiper-slide desktop ">
             <div class="product-grid"> 
+        {% endif %}
+
+        {% if index2 == 0 %}
+          <div class="swiper-slide mobile-slide">
+            <div class="product-grid mobile-grid">
         {% endif %}
         {% render 'product-card-new' product: product
         %}
