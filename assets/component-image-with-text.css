@@ -386,6 +386,7 @@
   margin-bottom: 1rem;
 }
 
+
 .image-with-text__text-custom p {
   opacity: 1;
 }
@@ -396,7 +397,7 @@
   --border-offset: 0;
   font-size: 24px;
   font-weight: 600;
-  padding: 
+  padding: 0.25rem 2rem;
 }
 
 @media screen and (max-width: 749px) {
