@@ -264,6 +264,21 @@
       "settings": {
         "heading": "<p>Rich text<\/p>"
       }
+    },
+    "explore_x4yEN3": {
+      "type": "explore",
+      "settings": {
+        "image_1": "shopify:\/\/shop_images\/Group_1000007082.png",
+        "link_1": "shopify:\/\/collections",
+        "image_2": "shopify:\/\/shop_images\/Group_1000007078.png",
+        "link_2": "shopify:\/\/collections\/hydrogen",
+        "image_3": "shopify:\/\/shop_images\/Group_1000007081.png",
+        "link_3": "shopify:\/\/collections\/test-collection",
+        "image_4": "shopify:\/\/shop_images\/Group_1000007080.png",
+        "link_4": "shopify:\/\/collections\/automated-collection",
+        "h4_text": "Explore all categories",
+        "h4_link": "shopify:\/\/collections"
+      }
     }
   },
   "order": [
@@ -273,6 +288,7 @@
     "brand_collection_list_two_LqJhj3",
     "image_with_text_cFjgRm",
     "feature_collection_new_LLcTET",
-    "brand_collection_KcGM93"
+    "brand_collection_KcGM93",
+    "explore_x4yEN3"
   ]
 }
