@@ -3,7 +3,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
   buttons.forEach(button => {
     button.addEventListener('click', function() {
-      const variantId = this.getAttribute('data-variant-id');      
+      const variantId = this.getAttribute('data-variant-id');
+      
+      if(variantId) {
+        addTo
+      }
     })
   });
 });
