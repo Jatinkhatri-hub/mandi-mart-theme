@@ -104,7 +104,8 @@
   }
 
   .container__product-review {
-    flex-direction: ;
+    flex-direction: column-reverse;
+    justify-content: center;
   }
 
   
