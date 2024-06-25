@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', function() {
   //    document.addEventListener('shopify:section:load', () => {
     const id = "{{ section.id }}"
 
-    let swiper = new Swiper(`#shopify-section-${}.mySwiper`, {
+    let swiper = new Swiper(`#shopify-section-${id} .mySwiper`, {
     slidesPerView: 1,
     spaceBetween: 10,
     // grid: {
