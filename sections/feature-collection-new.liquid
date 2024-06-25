@@ -18,9 +18,7 @@
       {% for product in section.settings.collection.products %}
         {%  assign index8 = forloop.index0 |  modulo: 8 %}
         {%  assign noOfProducts =  section.settings.collection.products | size %}
-         
         
-
         {% if index8 == 0 %}
           <div class="swiper-slide">
             <div class="product-grid "> 
