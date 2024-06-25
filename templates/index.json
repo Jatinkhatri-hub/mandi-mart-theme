@@ -111,7 +111,7 @@
     "feature_collection_new_QTkntz": {
       "type": "feature-collection-new",
       "settings": {
-        "heading": "<p>Collection<\/p>",
+        "heading": "<p>Featured Products<\/p>",
         "collection": "test-collection"
       }
     }
