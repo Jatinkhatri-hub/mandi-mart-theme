@@ -1,4 +1,5 @@
 {{ 'explore.css' | asset_url | stylesheet_tag }}
+<div>
 <div class="explore-categories page-width">
     <h2 class="explore-heading">Explore our categories</h2>
     <div class="explore-categories-container">
@@ -28,6 +29,8 @@
     {% else %}
         <h4 class="explore-categories-link">{{ section.settings.h4_text }}</h4>
     {% endif %}
+</div>
+
 </div>
 
 
