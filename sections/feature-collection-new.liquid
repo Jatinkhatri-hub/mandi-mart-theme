@@ -27,9 +27,10 @@
           <div class="swiper-slide mobile-slide">
             <div class="product-grid mobile-grid">
         {% endif %}
-        <div></div>
+        <div>
         {% render 'product-card-new' product: product
         %}
+        </div>
 
         {% if index2 == 1 or forloop.last %}
           </div>
