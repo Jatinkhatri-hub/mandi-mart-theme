@@ -226,10 +226,40 @@
             "title": "Neurobiologix",
             "button_text": "Explore Brand"
           }
+        },
+        "brand_collection_Jfk9iq": {
+          "type": "brand_collection",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/Untitleddesign_4.png",
+            "collection": "automated-collection",
+            "title": "Meraki BLU",
+            "button_text": "Explore Brand"
+          }
+        },
+        "brand_collection_kPKkBE": {
+          "type": "brand_collection",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/Untitleddesign_97.png",
+            "collection": "hydrogen",
+            "title": "Probiotics",
+            "button_text": "Explore Brand"
+          }
+        },
+        "brand_collection_6KdgUb": {
+          "type": "brand_collection",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/image_9_1.png",
+            "collection": "automated-collection",
+            "title": "Metabolics",
+            "button_text": "Explore Brand"
+          }
         }
       },
       "block_order": [
-        "brand_collection_YkgKkd"
+        "brand_collection_YkgKkd",
+        "brand_collection_Jfk9iq",
+        "brand_collection_kPKkBE",
+        "brand_collection_6KdgUb"
       ],
       "settings": {
         "heading": "<p>Rich text<\/p>"
