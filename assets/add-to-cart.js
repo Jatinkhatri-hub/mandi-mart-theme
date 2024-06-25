@@ -30,6 +30,6 @@ function addToCart(variantId) {
     console.log("Product added to cart:", data);
   })
   .catch((error) => {
-    console.error('Error adding Product to  cart', error;)
-  };
+    console.error('Error adding Product to  cart', error);
+  }
 });
