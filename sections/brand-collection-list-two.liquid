@@ -6,11 +6,13 @@
   <div class="brand-collection__wrapper">
     {% for block in settings.blocks %}
       {% if block.settings == 'brand_card' %}
+        <a>
         <div class="brand-card__wrapper">
           <div class="brand-logo__wrapper">
             <img src="{{ block.settings.brand_image |  img_url: 'medium' }}" class="brand-logo">
           </div>
         </div>
+        </a>
       {% endif %}
     {% endfor %}
   </div>
