@@ -1,5 +1,7 @@
 
-.container__feature
+.container__feature-collection--title p {
+  
+}
 
 .container__product-card {
   width: 300px !important;
