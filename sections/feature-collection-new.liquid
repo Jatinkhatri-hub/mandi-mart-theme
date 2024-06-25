@@ -29,6 +29,12 @@
         {% endif %}
         {% render 'product-card-new' product: product
         %}
+
+        {% if index2 == 1 or forloop.last %}
+          </div>
+        </div>
+      {% endif %}
+
         {% if index8 == 7 or forloop.last %}
             </div>
           </div>
