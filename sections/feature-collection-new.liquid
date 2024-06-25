@@ -169,7 +169,8 @@ document.addEventListener('DOMContentLoaded', function() {
   //    document.addEventListener('shopify:section:load', () => {
     const id = "{{ section.id }}"
 
-    const swiperClass
+    const swiperElement = document.querySelector(`#shopify-section-${id} .custom-layout__item.swiper`);
+const swiperClass = Array.from(swiperElement.classList).find(className => className.startsWith('mySwiper-'));
 
     let swiper = new Swiper(`#shopify-section-${id} .mySwiper`, {
     slidesPerView: 1,
