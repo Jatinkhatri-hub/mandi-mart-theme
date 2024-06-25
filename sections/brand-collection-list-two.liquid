@@ -5,11 +5,13 @@
 
   <div class="brand-collection__wrapper">
     {% for block in settings.blocks %}
-      <div class="brand-card__wrapper">
-        <div class="brand-logo__wrapper">
-          <img src="{{ block.settings }}">
+      {% if block.settings == 'brand_card' %}
+        <div class="brand-card__wrapper">
+          <div class="brand-logo__wrapper">
+            <img src="{{ block.settings.brand_image }}">
+          </div>
         </div>
-      </div>
+      {% endif %}
     {% endfor %}
   </div>
 </div>
@@ -34,8 +36,8 @@
         "settings": [
           {
             "type": "image_picker",
-            "id": "banner_image",
-            "label": "Banner Image"
+            "id": "brand_image",
+            "label": "Brand Image"
           }, {
             "type": "richtext",
             "id": "title",
