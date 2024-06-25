@@ -18,7 +18,8 @@
       {% for product in section.settings.collection.products %}
         {%  assign index8 = forloop.index0 |  modulo: 8 %}
         {% if index8 == 0 %}
-          <div class="swiper-slide product-grid"> 
+          <div class="swiper-slide ">
+            <div></div> 
         {% endif %}
         {% render 'product-card-new' product: product
         %}
