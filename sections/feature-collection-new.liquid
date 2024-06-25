@@ -132,36 +132,36 @@
 
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
+//   document.addEventListener('DOMContentLoaded', function() {
 
-      let swipers = {};
-      const updateSwiper = () => {
+//       let swipers = {};
+//       const updateSwiper = () => {
 
-      const id = "{{ section.id }}"
-      console.log(id);
-      const swiperClass = document.querySelector(`#shopify-section-${id} feature-collection.swiper`).classList[3];
-      console.log(swiperClass);
+//       const id = ""
+//       console.log(id);
+//       const swiperClass = document.querySelector(`#shopify-section-${id} feature-collection.swiper`).classList[3];
+//       console.log(swiperClass);
 
-      swipers?.[swiperClass]?.destroy(true, true)
+//       swipers?.[swiperClass]?.destroy(true, true)
 
-      swipers[swiperClass] = new Swiper( '.' + swiperClass, {
-        slidesPerView: 1,
-        spaceBetween: 10,
-        navigation: {
-          nextEl: '.swiper-button-next.' + swiperClass.replace(' ', '.').replace('mySwiper-', 'button--'),
-          prevEl: '.swiper-button-prev.' + swiperClass.replace(' ', '.').replace('mySwiper-', 'button--'),
-        },
-        pagination: {
-          el: `.${swiperClass.replace(' ', '.')}.swiper-pagination`,
-          clickable: true,
-        },
-      });
-    };
-    updateSwiper()
-    window.addEventListener('resize', () => updateSwiper())
-    document.addEventListener("shopify:section:load", () => updateSwiper());
+//       swipers[swiperClass] = new Swiper( '.' + swiperClass, {
+//         slidesPerView: 1,
+//         spaceBetween: 10,
+//         navigation: {
+//           nextEl: '.swiper-button-next.' + swiperClass.replace(' ', '.').replace('mySwiper-', 'button--'),
+//           prevEl: '.swiper-button-prev.' + swiperClass.replace(' ', '.').replace('mySwiper-', 'button--'),
+//         },
+//         pagination: {
+//           el: `.${swiperClass.replace(' ', '.')}.swiper-pagination`,
+//           clickable: true,
+//         },
+//       });
+//     };
+//     updateSwiper()
+//     window.addEventListener('resize', () => updateSwiper())
+//     document.addEventListener("shopify:section:load", () => updateSwiper());
 
-});
+// });
 
 
 </script>
