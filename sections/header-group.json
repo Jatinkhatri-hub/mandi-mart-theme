@@ -46,7 +46,11 @@
     "header": {
       "type": "header",
       "settings": {
-        "color_scheme": "scheme-1",
+        "brand_logo": "shopify:\/\/shop_images\/image_15_1.png",
+        "logo_width": 100,
+        "navigation": "main-menu",
+        "mega_navbar": "",
+        "color_scheme": "scheme-71d26b89-4c3d-4b55-86ce-d683f8a2a68c",
         "menu_color_scheme": "scheme-1"
       }
     }
