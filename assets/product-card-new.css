@@ -104,7 +104,9 @@
   }
 
   .container__product-info {
-  justify-content: space-around;
+    justify-content: space-around;
+    paddin-
+  }
 
   .container__product-review {
     flex-direction: column-reverse;
