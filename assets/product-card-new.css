@@ -18,6 +18,7 @@
   height: 310px;
   background: #f3f7f7;
   border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .container__product-image{
