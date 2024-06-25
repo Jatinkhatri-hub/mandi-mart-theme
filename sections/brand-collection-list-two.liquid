@@ -6,7 +6,7 @@
   <div class="brand-collection__wrapper">
     {% for block in settings.blocks %}
       {% if block.settings == 'brand_card' %}
-        <a href="{{ block }}">
+        <a href="{{ block.settings.collection.url }}">
         <div class="brand-card__wrapper">
           <div class="brand-logo__wrapper">
             <img src="{{ block.settings.brand_image |  img_url: 'medium' }}" class="brand-logo">
