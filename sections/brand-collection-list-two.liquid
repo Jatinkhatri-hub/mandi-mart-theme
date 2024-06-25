@@ -12,30 +12,30 @@
   }
 {%- endstyle -%}
 
-<div class="section-{{ section.id }}">
-<div class="page-width">
-  <div class="brand-collection__header">
-    <h2>{{ section.settings.section_heading }}</h2>
-  </div>
+<div class="section-{{ section.id }}-padding">
+  <div class="page-width">
+    <div class="brand-collection__header">
+      <h2>{{ section.settings.section_heading }}</h2>
+    </div>
 
-  <div class="brand-collection__wrapper">
-    {% for block in section.blocks %}
+    <div class="brand-collection__wrapper">
+      {% for block in section.blocks %}
 
-      <a href="{{ block.settings.collection.url }}">
-        <div class="brand-card__wrapper">
-          <div class="brand-logo__wrapper">
-            <img src="{{ block.settings.brand_image |  img_url: 'medium' }}" class="brand-logo">
+        <a href="{{ block.settings.collection.url }}">
+          <div class="brand-card__wrapper">
+            <div class="brand-logo__wrapper">
+              <img src="{{ block.settings.brand_image |  img_url: 'medium' }}" class="brand-logo">
+            </div>
+            <div class="brand-title__wrapper">
+              {{ block.settings.title }}
+              {% render 'icon-arrow' %}
+            </div>
           </div>
-          <div class="brand-title__wrapper">
-            {{ block.settings.title }}
-            {% render 'icon-arrow' %}
-          </div>
-        </div>
-      </a>
+        </a>
 
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
-</div>
 </div>
 
 <style>
@@ -92,26 +92,26 @@
     fill: rgb(var(--color-foreground));
   }
 
-  @media screen and (max-width: 769px){
+  @media screen and (max-width: 769px) {
     .brand-collection__wrapper {
       flex-direction: column;
       gap: 2rem;
     }
 
     .brand-title__wrapper p {
-    
-    font-size: 20px;
-    
-  }
 
-  .brand-title__wrapper svg {
-    width: 16px;
-  }
-  .brand-title__wrapper {
-    display: block;
-    text-align: center;
-  }
-    
+      font-size: 20px;
+
+    }
+
+    .brand-title__wrapper svg {
+      width: 16px;
+    }
+    .brand-title__wrapper {
+      display: block;
+      text-align: center;
+    }
+
   }
 
 </style>
@@ -129,30 +129,35 @@
       },
       {
         "type": "color_scheme",
+        "id": "section_color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "scheme-1"
+      },
+      {
+        "type": "color_scheme",
         "id": "color_scheme",
         "label": "t:sections.multirow.settings.container_color_scheme.label",
         "default": "scheme-1"
       },
       {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
-      "default": 36
-    },
-    {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
-      "default": 36
-    }
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+      }, {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+      }
 
     ],
     "blocks": [
