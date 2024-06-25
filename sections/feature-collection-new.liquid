@@ -141,7 +141,9 @@
 
       swipers?.[swiperClass]?.destroy(true, true)
 
-      swipers[swiperClass] = new Swiper( '.' + swiperClass)
+      swipers[swiperClass] = new Swiper( '.' + swiperClass, {
+        sliders
+      })
 
   });
 
