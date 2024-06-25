@@ -14,7 +14,9 @@
   grid-template-rows: repeat(2, 1fr);
 }
 
-
+.mobile-grid {
+  grid-template-columns: ;
+}
 
 .container__product-card {
   width: 270px;
