@@ -104,5 +104,5 @@
 
 .desktop-grid {
   grid-template-columns: repeat(4, 1fr);
-  grid-
+  grid-template-rows: repeat(2, 1fr);
 }
