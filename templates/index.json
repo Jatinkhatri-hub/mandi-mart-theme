@@ -107,10 +107,18 @@
       ],
       "settings": {
       }
+    },
+    "feature_collection_new_QTkntz": {
+      "type": "feature-collection-new",
+      "settings": {
+        "heading": "<p>Collection<\/p>",
+        "collection": "test-collection"
+      }
     }
   },
   "order": [
     "hero_carousel_jJbign",
-    "featured_collection_banner_gFBFc8"
+    "featured_collection_banner_gFBFc8",
+    "feature_collection_new_QTkntz"
   ]
 }
