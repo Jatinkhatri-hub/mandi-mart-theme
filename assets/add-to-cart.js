@@ -16,7 +16,8 @@ function addToCart(variantId) {
   fetch('/cart/add.js', {
     method: 'POST',
     'headers': {
-      'Content-Type': '
-    }
+      'Content-Type': 'application/json'
+    },
+    bod
   })
 }
