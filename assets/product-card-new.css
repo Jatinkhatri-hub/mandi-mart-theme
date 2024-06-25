@@ -91,7 +91,7 @@
 }
 
 
-@media screen and (min-width: 789px){ 
+@media screen and (min-: 789px){ 
 
  .container__product-card{
   width: 180px;
@@ -105,8 +105,8 @@
   }
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .desktop-slide {
     display: none;
   }
-} */
+}
