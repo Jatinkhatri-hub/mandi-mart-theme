@@ -158,7 +158,7 @@
     };
     updateSwiper()
     window.addEventListener('resize', () => updateSwiper())
-    document.addEventListener("shopify")
+    document.addEventListener("shopify:section:load", () => updateSwiper);
 
 });
 
