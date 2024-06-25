@@ -104,7 +104,7 @@
   }
 
   .container__product-info {
-  j
+  justify-content: space-around;
 
   .container__product-review {
     flex-direction: column-reverse;
