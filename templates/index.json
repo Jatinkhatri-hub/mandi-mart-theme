@@ -62,9 +62,46 @@
       ],
       "settings": {
       }
+    },
+    "featured_collection_banner_gFBFc8": {
+      "type": "featured-collection-banner",
+      "blocks": {
+        "collection_card_G9PFtc": {
+          "type": "collection_card",
+          "settings": {
+            "banner_image": "shopify:\/\/shop_images\/Ellipse_218.png",
+            "title": "<p>Best Seller<\/p>",
+            "collection": "automated-collection"
+          }
+        },
+        "collection_card_hHBbgz": {
+          "type": "collection_card",
+          "settings": {
+            "banner_image": "shopify:\/\/shop_images\/Ellipse_219.png",
+            "title": "<p>New Products<\/p>",
+            "collection": "hydrogen"
+          }
+        },
+        "collection_card_zeKqrY": {
+          "type": "collection_card",
+          "settings": {
+            "banner_image": "shopify:\/\/shop_images\/60_Sale_2.png",
+            "title": "<p>Collection<\/p>",
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_card_G9PFtc",
+        "collection_card_hHBbgz",
+        "collection_card_zeKqrY"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "hero_carousel_jJbign"
+    "hero_carousel_jJbign",
+    "featured_collection_banner_gFBFc8"
   ]
 }
