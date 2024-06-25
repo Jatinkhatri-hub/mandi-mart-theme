@@ -29,6 +29,8 @@ function addToCart(variantId) {
   .then(data => {
     console.log("Product added to cart:", data);
   })
-  .catch((error())
+  .catch((error) => {
+
+  });
   ;
 }
