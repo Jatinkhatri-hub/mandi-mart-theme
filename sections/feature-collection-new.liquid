@@ -24,7 +24,7 @@
         {% render 'product-card-new' product: product
         %}
         {% if index8 == 7 or forloop.last %}
-          </div>
+            </div>
           </div>
         {% endif %}
 
@@ -139,7 +139,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const id = "{{ section.id }}"
 
     let swiper = new Swiper(`.mySwiper`, {
-    slidesPerView: 2,
+    slidesPerView: 1,
     spaceBetween: 30,
     // grid: {
     //       rows: 2,
@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', function() {
     },
     breakpoints: {
       786: {
-        slidesPerView: 4,
+        slidesPerView: 1,
         spaceBetween: 10,
         
       }
