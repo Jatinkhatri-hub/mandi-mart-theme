@@ -13,5 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function addToCart(variantId) {
-  fetch('/cart/add.js')
+  fetch('/cart/add.js', {
+    
+  })
 }
