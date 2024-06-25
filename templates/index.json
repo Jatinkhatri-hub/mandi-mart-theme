@@ -279,6 +279,23 @@
         "h4_text": "Explore all categories",
         "h4_link": "shopify:\/\/collections"
       }
+    },
+    "featured_blog_7erEdD": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-d9463c4f-4a09-4474-9ce1-b3fbc218e510",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -289,6 +306,7 @@
     "image_with_text_cFjgRm",
     "feature_collection_new_LLcTET",
     "brand_collection_KcGM93",
-    "explore_x4yEN3"
+    "explore_x4yEN3",
+    "featured_blog_7erEdD"
   ]
 }
