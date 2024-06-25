@@ -90,7 +90,8 @@
   }
 
   .mobile-grid {
-    grid-template-columns: ;
+    grid-template-columns: repeat(2, 1fr);
+    
   }
 
 }
