@@ -27,6 +27,6 @@ function addToCart(variantId) {
   })
   .then(response => response.json())
   .then(data => {
-    con
+    console.log("Product added to cart:", data);
   });
 }
