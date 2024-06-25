@@ -114,11 +114,106 @@
         "heading": "<p>Featured Products<\/p>",
         "collection": "test-collection"
       }
+    },
+    "brand_collection_list_two_LqJhj3": {
+      "type": "brand-collection-list-two",
+      "blocks": {
+        "brand_card_m7W9Qz": {
+          "type": "brand_card",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/image_29_526de05c-7747-455b-b7bd-f3f3996230c7.png",
+            "title": "<p>Aspire Nutrition<\/p>",
+            "collection": "automated-collection"
+          }
+        },
+        "brand_card_cbfi4V": {
+          "type": "brand_card",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/image_30.png",
+            "title": "<p>Spectrum Awakening<\/p>",
+            "collection": "automated-collection"
+          }
+        },
+        "brand_card_jpUQEB": {
+          "type": "brand_card",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/Rectangle_41.png",
+            "title": "<p>ANRC<\/p>",
+            "collection": "test-collection"
+          }
+        },
+        "brand_card_DwhCVB": {
+          "type": "brand_card",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/Rectangle_42_dd155a71-87df-4b28-9aa2-5573a4d9ae67.png",
+            "title": "<p>Biom<\/p>",
+            "collection": "hydrogen"
+          }
+        }
+      },
+      "block_order": [
+        "brand_card_m7W9Qz",
+        "brand_card_cbfi4V",
+        "brand_card_jpUQEB",
+        "brand_card_DwhCVB"
+      ],
+      "settings": {
+        "section_heading": ""
+      }
+    },
+    "image_with_text_cFjgRm": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_RXziq3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lorem ipsum dolor sit amet cons ectetur acus sit amet",
+            "heading_size": "h1"
+          }
+        },
+        "text_VMfEhf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_HkxN6F": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RXziq3",
+        "text_VMfEhf",
+        "button_HkxN6F"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Yams_-_2024-05-21T174334_1.png",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-15faa612-5dbf-4786-b230-f99c6c609193",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "hero_carousel_jJbign",
     "featured_collection_banner_gFBFc8",
-    "feature_collection_new_QTkntz"
+    "feature_collection_new_QTkntz",
+    "brand_collection_list_two_LqJhj3",
+    "image_with_text_cFjgRm"
   ]
 }
