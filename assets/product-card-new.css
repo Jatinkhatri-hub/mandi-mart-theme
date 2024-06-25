@@ -108,7 +108,10 @@
     align-items: center;
   }
 
-  .container__product-title 
+  .container__product-title {
+    font-size: 14px;
+    
+  }
 
   
 }
