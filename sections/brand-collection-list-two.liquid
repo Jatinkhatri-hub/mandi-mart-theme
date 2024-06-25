@@ -5,19 +5,19 @@
 
   <div class="brand-collection__wrapper">
     {% for block in settings.blocks %}
-      {% if block.settings == 'brand_card' %}
-        <a href="{{ block.settings.collection.url }}">
+
+      <a href="{{ block.settings.collection.url }}">
         <div class="brand-card__wrapper">
           <div class="brand-logo__wrapper">
             <img src="{{ block.settings.brand_image |  img_url: 'medium' }}" class="brand-logo">
           </div>
           <div class="brand-title__wrapper">
             <h2>{{ block.settings.title }}</h2>
-            {%  render 'icon-arrow' %} 
+            {% render 'icon-arrow' %}
           </div>
         </div>
-        </a>
-      {% endif %}
+      </a>
+
     {% endfor %}
   </div>
 </div>
