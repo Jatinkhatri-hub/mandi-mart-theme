@@ -94,7 +94,9 @@
 
  .container__product-card{
     width: 180px;
+    height: 375px;
   }
+  
 
   .product-grid {
     grid-template-columns: repeat(2, 1fr);
