@@ -18,6 +18,8 @@ function addToCart(variantId) {
     'headers': {
       'Content-Type': 'application/json'
     },
-    bod
+    body: JSON.stringify({
+      
+    })
   })
 }
