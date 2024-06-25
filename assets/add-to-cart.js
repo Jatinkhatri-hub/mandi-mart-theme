@@ -12,3 +12,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+function addToCart(variantId) {
+  fetch('')
+}
