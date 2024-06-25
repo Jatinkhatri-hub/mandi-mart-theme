@@ -5,7 +5,7 @@
 }
 
 .container__product-card {
-  width: 280px !important;
+  width: 280px;
   height: 310px;
   background: #f3f7f7;
   border-radius: 4px;
