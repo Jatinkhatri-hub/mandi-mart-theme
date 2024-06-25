@@ -14,7 +14,7 @@
   }
 {%- endstyle -%}
 
-<di
+<div>
 <div class="section__collection--wrapper page-width">
   {% for block in section.blocks %}
     {%  render 'collection-card-new',
@@ -23,6 +23,8 @@
       title: block.settings.title
     %}
   {% endfor %}
+</div>
+
 </div>
 
 {% schema %}
