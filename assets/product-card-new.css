@@ -114,7 +114,7 @@
   }
 
   .container__price-and-button {
-    flex-direction: ;
+    flex-direction: column;
   }
 
   
