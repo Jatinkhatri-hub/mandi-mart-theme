@@ -1,3 +1,3 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const buttons = doc
+  const buttons = document.querySelectorAll('.atc-button')
 });
