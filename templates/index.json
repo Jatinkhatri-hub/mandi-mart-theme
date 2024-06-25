@@ -214,6 +214,26 @@
         "heading": "<p>Collection<\/p>",
         "collection": "test-collection"
       }
+    },
+    "brand_collection_KcGM93": {
+      "type": "brand-collection",
+      "blocks": {
+        "brand_collection_YkgKkd": {
+          "type": "brand_collection",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/Untitleddesign_97.png",
+            "collection": "automated-collection",
+            "title": "Neurobiologix",
+            "button_text": "Explore Brand"
+          }
+        }
+      },
+      "block_order": [
+        "brand_collection_YkgKkd"
+      ],
+      "settings": {
+        "heading": "<p>Rich text<\/p>"
+      }
     }
   },
   "order": [
@@ -222,6 +242,7 @@
     "feature_collection_new_QTkntz",
     "brand_collection_list_two_LqJhj3",
     "image_with_text_cFjgRm",
-    "feature_collection_new_LLcTET"
+    "feature_collection_new_LLcTET",
+    "brand_collection_KcGM93"
   ]
 }
