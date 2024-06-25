@@ -19,7 +19,9 @@ function addToCart(variantId) {
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({
-      
+      items: [{
+        id: va
+      }]
     })
   })
 }
