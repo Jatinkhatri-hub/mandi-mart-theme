@@ -139,7 +139,9 @@
       console.log(id);
       const swiperClass = document.querySelector(`#shopify-section-${id} feature-collection.swiper`).classList[3];
 
-      swipers?.[swiperClass]?.des
+      swipers?.[swiperClass]?.destroy(true, true)
+
+      
 
   });
 
