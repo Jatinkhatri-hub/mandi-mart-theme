@@ -25,5 +25,8 @@ function addToCart(variantId) {
       }]
     })
   })
-  .then(response =)
+  .then(response => response.json())
+  .then(data => {
+    
+  })
 }
