@@ -203,7 +203,7 @@
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-15faa612-5dbf-4786-b230-f99c6c609193",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
