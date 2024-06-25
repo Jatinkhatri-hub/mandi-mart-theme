@@ -85,16 +85,25 @@
         "collection_card_zeKqrY": {
           "type": "collection_card",
           "settings": {
-            "banner_image": "shopify:\/\/shop_images\/60_Sale_2.png",
-            "title": "<p>Collection<\/p>",
-            "collection": ""
+            "banner_image": "shopify:\/\/shop_images\/Untitleddesign_97.png",
+            "title": "<p>Clearance<\/p>",
+            "collection": "test-collection"
+          }
+        },
+        "collection_card_3HNVDe": {
+          "type": "collection_card",
+          "settings": {
+            "banner_image": "shopify:\/\/shop_images\/Group_1000007087.png",
+            "title": "<p>All Brands<\/p>",
+            "collection": "hydrogen"
           }
         }
       },
       "block_order": [
         "collection_card_G9PFtc",
         "collection_card_hHBbgz",
-        "collection_card_zeKqrY"
+        "collection_card_zeKqrY",
+        "collection_card_3HNVDe"
       ],
       "settings": {
       }
