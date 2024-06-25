@@ -95,6 +95,7 @@
  .container__product-card{
     width: 180px;
     height: 375px;
+    justify-content: space-around;
   }
 
 
