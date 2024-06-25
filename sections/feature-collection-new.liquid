@@ -21,7 +21,7 @@
         
         {% if index8 == 0 %}
           <div class="swiper-slide">
-            <div class="product-grid "> 
+            <div class="product-grid {% if noOfProducts < 6 and noOfProducts > 4 %} product-grid-6 {% elsif noOfProducts < 4 and noOfProducts > 2 %} product-grid-4 {% elsif noOfProducts > 0 and noOfProducts < 3 %} product-grid-2 {% endif %}"> 
         {% endif %}
 
         
