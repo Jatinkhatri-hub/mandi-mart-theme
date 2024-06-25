@@ -6,8 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
       const variantId = this.getAttribute('data-variant-id');
       
       if(variantId) {
-        addTo
+        addToCart(variantId);
       }
     })
   });
 });
+
