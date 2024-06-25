@@ -14,8 +14,8 @@
   }
 {%- endstyle -%}
 
-<div class="section-{{ section.id }}-padding">
-  <div class="section__collection--wrapper page-width">
+<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
+  <div class="section__collection--wrapper page-width ">
     {% for block in section.blocks %}
       {% render 'collection-card-new'
         , url: block.settings.collection.url
