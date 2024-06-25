@@ -171,6 +171,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const swiperElement = document.querySelector(`#shopify-section-${id} .feature-collection.swiper`);
     const swiperClass = Array.from(swiperElement.classList).find(className => className.startsWith('mySwiper-'));
+    console.log(swiperClass)
 
     let swiper = new Swiper(`#shopify-section-${id} .mySwiper`, {
     slidesPerView: 1,
