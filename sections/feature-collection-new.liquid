@@ -165,44 +165,44 @@
 //   });
 // });
 
-document.addEventListener('DOMContentLoaded', function() {
-  //    document.addEventListener('shopify:section:load', () => {
-    const id = "{{ section.id }}"
+// document.addEventListener('DOMContentLoaded', function() {
+//   //    document.addEventListener('shopify:section:load', () => {
+//     const id = ""
     
 
-    let swiper = new Swiper(`.mySwiper-${id}`, {
-    slidesPerView: 1,
-    spaceBetween: 10,
-    // grid: {
-    //       rows: 2,
-    // },
-    pagination: {
-      el: `.swiper-pagination-${id}`,
-      clickable: true,
-    },
-    navigation: {
-      prevEl: `.swiper-button-prev-${id}`,
-      nextEl: `.swiper-button-next-${id}`,
-    },
-    breakpoints: {
-      786: {
-        slidesPerView: 1,
-        spaceBetween: 10,
+//     let swiper = new Swiper(`.mySwiper-${id}`, {
+//     slidesPerView: 1,
+//     spaceBetween: 10,
+//     // grid: {
+//     //       rows: 2,
+//     // },
+//     pagination: {
+//       el: `.swiper-pagination-${id}`,
+//       clickable: true,
+//     },
+//     navigation: {
+//       prevEl: `.swiper-button-prev-${id}`,
+//       nextEl: `.swiper-button-next-${id}`,
+//     },
+//     breakpoints: {
+//       786: {
+//         slidesPerView: 1,
+//         spaceBetween: 10,
         
-      }
-    },
-    observer: true, 
-    observeParents: true,
-  })
-  setTimeout(() => {
-    console.log(`swiper.init()`);
-  swiper.init();
+//       }
+//     },
+//     observer: true, 
+//     observeParents: true,
+//   })
+//   setTimeout(() => {
+//     console.log(`swiper.init()`);
+//   swiper.init();
 
-  console.log(`swiper.update()`);
-  swiper.update();
-  }, 5000);
+//   console.log(`swiper.update()`);
+//   swiper.update();
+//   }, 5000);
    
-    });
+//     });
 
 {% endjavascript %}
 
