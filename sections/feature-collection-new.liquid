@@ -16,6 +16,7 @@
   <div class="feature-collection swiper mySwiper {{ section.id }}">
     <div class="container__product-list swiper-wrapper">
       {% for product in section.settings.collection.products %}
+        {}
         {% render 'product-card-new' product: product
         %}
       {% endfor %}
