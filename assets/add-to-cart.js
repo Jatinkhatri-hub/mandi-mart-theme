@@ -20,7 +20,8 @@ function addToCart(variantId) {
     },
     body: JSON.stringify({
       items: [{
-        id: va
+        id: variantId,
+        quantity: 1
       }]
     })
   })
