@@ -89,6 +89,8 @@
     width: 180px;
   }
 
-  
+  .mobile-grid {
+    grid-template-columns: ;
+  }
 
 }
