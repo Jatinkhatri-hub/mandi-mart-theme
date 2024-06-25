@@ -9,7 +9,12 @@
   gap: 10px;
 }
 
-.desktop
+.desktop-grid {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+
 
 .container__product-card {
   width: 270px;
