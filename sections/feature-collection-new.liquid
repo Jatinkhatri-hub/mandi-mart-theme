@@ -17,17 +17,13 @@
     <div class="container__product-list swiper-wrapper">
       {% for product in section.settings.collection.products %}
         {%  assign index8 = forloop.index0 |  modulo: 8 %}
-        {%  assign index2 = forloop.index0 | modulo: 2 %} 
 
         {% if index8 == 0 %}
           <div class="swiper-slide desktop-slide ">
             <div class="product-grid desktop-grid"> 
         {% endif %}
 
-        {% if index2 == 0 %}
-          <div class="swiper-slide mobile-slide">
-            <div class="product-grid mobile-grid">
-        {% endif %}
+        
         <div>
         {% render 'product-card-new' product: product
         %}
