@@ -110,10 +110,37 @@
             "title": "<p>Collection<\/p>",
             "collection": "automated-collection"
           }
+        },
+        "brand_card_Mxi6J7": {
+          "type": "brand_card",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/image_30.png",
+            "title": "<p>Spectrum Awekening<\/p>",
+            "collection": "frontpage"
+          }
+        },
+        "brand_card_ahzFnR": {
+          "type": "brand_card",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/Rectangle_41.png",
+            "title": "<p>ANC<\/p>",
+            "collection": ""
+          }
+        },
+        "brand_card_QTzieA": {
+          "type": "brand_card",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/Rectangle_42_dd155a71-87df-4b28-9aa2-5573a4d9ae67.png",
+            "title": "<p>Biom<\/p>",
+            "collection": ""
+          }
         }
       },
       "block_order": [
-        "brand_card_6fExNL"
+        "brand_card_6fExNL",
+        "brand_card_Mxi6J7",
+        "brand_card_ahzFnR",
+        "brand_card_QTzieA"
       ],
       "settings": {
         "section_heading": "Brand"
