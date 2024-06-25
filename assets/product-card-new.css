@@ -7,7 +7,7 @@
 .product-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: ;
+  grid-template-rows: repeat(2, );
 }
 
 .container__product-card {
