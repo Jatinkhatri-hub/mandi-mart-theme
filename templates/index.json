@@ -9,196 +9,76 @@
 */
 {
   "sections": {
-    "hero_carousel_jUMLBp": {
-      "type": "hero-carousel",
+    "image_banner": {
+      "type": "image-banner",
       "blocks": {
-        "image_cUyxzL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/yellow-winner-podium-pedestal-showcase-product-space-presentation-background-3d-rendering_copy_3_466d1b3a-ada9-4e38-81e6-8da3eeb41cbe.png",
-            "alt": "Slide",
-            "carousel_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-            "carousel_sub_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, architecto. Atque voluptate delectus deleniti labore laborum?",
-            "carousel_list_item_1": "Lorem ipsum dolor",
-            "carousel_list_item_2": "Lorem ipsum dolor",
-            "carousel_list_item_3": "Lorem ipsum dolor",
-            "carousel_button_text": "CTA TEXT",
-            "carousel_alignment": "left"
-          }
-        },
-        "image_q7y9KA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
-            "alt": "Slide",
-            "carousel_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-            "carousel_sub_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, architecto. Atque voluptate delectus deleniti labore laborum?",
-            "carousel_list_item_1": "Lorem ipsum dolor",
-            "carousel_list_item_2": "Lorem ipsum dolor",
-            "carousel_list_item_3": "Lorem ipsum dolor",
-            "carousel_button_text": "CTA TEXT",
-            "carousel_alignment": "left"
-          }
-        }
-      },
-      "block_order": [
-        "image_cUyxzL",
-        "image_q7y9KA"
-      ],
-      "settings": {
-      }
-    },
-    "featured_collection_banner_JYUacz": {
-      "type": "featured-collection-banner",
-      "blocks": {
-        "collection_card_LFrq8p": {
-          "type": "collection_card",
-          "settings": {
-            "banner_image": "shopify:\/\/shop_images\/Ellipse_218.png",
-            "title": "<p>Collection<\/p>",
-            "collection": ""
-          }
-        },
-        "collection_card_VEzKk6": {
-          "type": "collection_card",
-          "settings": {
-            "banner_image": "shopify:\/\/shop_images\/Ellipse_219.png",
-            "title": "<p>Collection<\/p>",
-            "collection": ""
-          }
-        },
-        "collection_card_9Xcqbj": {
-          "type": "collection_card",
-          "settings": {
-            "banner_image": "shopify:\/\/shop_images\/Yams_-_2024-05-21T174334_1.png",
-            "title": "<p>Collection<\/p>",
-            "collection": ""
-          }
-        },
-        "collection_card_eNWiXr": {
-          "type": "collection_card",
-          "settings": {
-            "banner_image": "shopify:\/\/shop_images\/Untitleddesign_97.png",
-            "title": "<p>Collection<\/p>",
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_card_LFrq8p",
-        "collection_card_VEzKk6",
-        "collection_card_9Xcqbj",
-        "collection_card_eNWiXr"
-      ],
-      "settings": {
-      }
-    },
-    "feature_collection_new_PAhUET": {
-      "type": "feature-collection-new",
-      "settings": {
-        "heading": "<p>Collection<\/p>",
-        "collection": "test-collection"
-      }
-    },
-    "brand_collection_list_two_n7tygh": {
-      "type": "brand-collection-list-two",
-      "blocks": {
-        "brand_card_6fExNL": {
-          "type": "brand_card",
-          "settings": {
-            "brand_image": "shopify:\/\/shop_images\/image_29.png",
-            "title": "<p>Collection<\/p>",
-            "collection": "automated-collection"
-          }
-        },
-        "brand_card_Mxi6J7": {
-          "type": "brand_card",
-          "settings": {
-            "brand_image": "shopify:\/\/shop_images\/image_30.png",
-            "title": "<p>Spectrum Awekening<\/p>",
-            "collection": "frontpage"
-          }
-        },
-        "brand_card_ahzFnR": {
-          "type": "brand_card",
-          "settings": {
-            "brand_image": "shopify:\/\/shop_images\/Rectangle_41.png",
-            "title": "<p>ANC<\/p>",
-            "collection": ""
-          }
-        },
-        "brand_card_QTzieA": {
-          "type": "brand_card",
-          "settings": {
-            "brand_image": "shopify:\/\/shop_images\/Rectangle_42_dd155a71-87df-4b28-9aa2-5573a4d9ae67.png",
-            "title": "<p>Biom<\/p>",
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "brand_card_6fExNL",
-        "brand_card_Mxi6J7",
-        "brand_card_ahzFnR",
-        "brand_card_QTzieA"
-      ],
-      "settings": {
-        "section_heading": ""
-      }
-    },
-    "image_with_text_YxzQNq": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_gQ69rz": {
+        "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "Browse our latest products",
+            "heading_size": "h0"
           }
         },
-        "text_UWUAAa": {
-          "type": "text",
+        "button": {
+          "type": "buttons",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_mFiqzk": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections",
-            "button_style_secondary": false
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_gQ69rz",
-        "text_UWUAAa",
-        "button_mFiqzk"
+        "heading",
+        "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yams_-_2024-05-21T174334_1.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-c7ba0ff3-0655-486e-ad49-6e66a37a23f2",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "padding_top": 36,
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "hero_carousel_jUMLBp",
-    "featured_collection_banner_JYUacz",
-    "feature_collection_new_PAhUET",
-    "brand_collection_list_two_n7tygh",
-    "image_with_text_YxzQNq"
+    "image_banner",
+    "featured_collection"
   ]
 }
