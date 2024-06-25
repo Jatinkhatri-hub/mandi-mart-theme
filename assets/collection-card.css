@@ -34,7 +34,7 @@
   text-decoration: none;
   font-size: 37px;
   font-weight: 700;
-  color: rba
+  color: rgb(var(--color-foreground));
 }
 
 @media screen and (max-width: 769px){
