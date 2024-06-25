@@ -131,7 +131,11 @@
   }
 
   .product-grid-6 {
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr) !important;
+  }
+
+  .product-grid-6 {
+    grid-template-rows: repeat(3, 1fr) !important;
   }
   
 }
