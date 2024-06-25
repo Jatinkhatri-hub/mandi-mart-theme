@@ -115,6 +115,7 @@
 
   .container__price-and-button {
     flex-direction: column;
+    align-items: center;
   }
 
   
