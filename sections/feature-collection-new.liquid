@@ -142,7 +142,8 @@
       swipers?.[swiperClass]?.destroy(true, true)
 
       swipers[swiperClass] = new Swiper( '.' + swiperClass, {
-        sliders
+        slidesPerView: 1,
+        
       })
 
   });
