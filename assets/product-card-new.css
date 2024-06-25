@@ -102,3 +102,6 @@
   display: none;
 } 
 
+.desktop-grid {
+  grid-template-columns: repeat();
+}
