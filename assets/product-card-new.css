@@ -103,7 +103,9 @@
     grid-template-rows: repeat(4, 1fr);
   }
 
-  .container__
+  .container__product-review {
+    flex-direction: ;
+  }
 
   
 }
