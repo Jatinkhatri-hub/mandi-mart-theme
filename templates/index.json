@@ -9,324 +9,76 @@
 */
 {
   "sections": {
-    "hero_carousel_jJbign": {
-      "type": "hero-carousel",
+    "image_banner": {
+      "type": "image-banner",
       "blocks": {
-        "image_MC3rWr": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/yellow-winner-podium-pedestal-showcase-product-space-presentation-background-3d-rendering_copy_3.png",
-            "alt": "Slide",
-            "carousel_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-            "carousel_sub_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, architecto. Atque voluptate delectus deleniti labore laborum?",
-            "carousel_list_item_1": "Lorem ipsum dolor",
-            "carousel_list_item_2": "Lorem ipsum dolor",
-            "carousel_list_item_3": "Lorem ipsum dolor",
-            "carousel_button_text": "CTA TEXT",
-            "carousel_alignment": "left"
-          }
-        },
-        "image_pFLNzi": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_32.png",
-            "alt": "Slide",
-            "carousel_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-            "carousel_sub_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, architecto. Atque voluptate delectus deleniti labore laborum?",
-            "carousel_list_item_1": "Lorem ipsum dolor",
-            "carousel_list_item_2": "Lorem ipsum dolor",
-            "carousel_list_item_3": "Lorem ipsum dolor",
-            "carousel_button_text": "CTA TEXT",
-            "carousel_alignment": "left"
-          }
-        },
-        "image_QMtJWL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/nik-5lzJbDKElQ8-unsplash.jpg",
-            "alt": "Slide",
-            "carousel_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-            "carousel_sub_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, architecto. Atque voluptate delectus deleniti labore laborum?",
-            "carousel_list_item_1": "Lorem ipsum dolor",
-            "carousel_list_item_2": "Lorem ipsum dolor",
-            "carousel_list_item_3": "Lorem ipsum dolor",
-            "carousel_button_text": "CTA TEXT",
-            "carousel_alignment": "left"
-          }
-        }
-      },
-      "block_order": [
-        "image_MC3rWr",
-        "image_pFLNzi",
-        "image_QMtJWL"
-      ],
-      "settings": {
-      }
-    },
-    "featured_collection_banner_gFBFc8": {
-      "type": "featured-collection-banner",
-      "blocks": {
-        "collection_card_G9PFtc": {
-          "type": "collection_card",
-          "settings": {
-            "banner_image": "shopify:\/\/shop_images\/Ellipse_218.png",
-            "title": "<p>Best Seller<\/p>",
-            "collection": "automated-collection"
-          }
-        },
-        "collection_card_hHBbgz": {
-          "type": "collection_card",
-          "settings": {
-            "banner_image": "shopify:\/\/shop_images\/Ellipse_219.png",
-            "title": "<p>New Products<\/p>",
-            "collection": "hydrogen"
-          }
-        },
-        "collection_card_zeKqrY": {
-          "type": "collection_card",
-          "settings": {
-            "banner_image": "shopify:\/\/shop_images\/Untitleddesign_97.png",
-            "title": "<p>Clearance<\/p>",
-            "collection": "test-collection"
-          }
-        },
-        "collection_card_3HNVDe": {
-          "type": "collection_card",
-          "settings": {
-            "banner_image": "shopify:\/\/shop_images\/Group_1000007087.png",
-            "title": "<p>All Brands<\/p>",
-            "collection": "hydrogen"
-          }
-        }
-      },
-      "block_order": [
-        "collection_card_G9PFtc",
-        "collection_card_hHBbgz",
-        "collection_card_zeKqrY",
-        "collection_card_3HNVDe"
-      ],
-      "settings": {
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "feature_collection_new_QTkntz": {
-      "type": "feature-collection-new",
-      "settings": {
-        "heading": "<p>Featured Products<\/p>",
-        "collection": "test-collection",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "brand_collection_list_two_LqJhj3": {
-      "type": "brand-collection-list-two",
-      "blocks": {
-        "brand_card_m7W9Qz": {
-          "type": "brand_card",
-          "settings": {
-            "brand_image": "shopify:\/\/shop_images\/image_29_526de05c-7747-455b-b7bd-f3f3996230c7.png",
-            "title": "<p>Aspire Nutrition<\/p>",
-            "collection": "automated-collection"
-          }
-        },
-        "brand_card_cbfi4V": {
-          "type": "brand_card",
-          "settings": {
-            "brand_image": "shopify:\/\/shop_images\/image_30.png",
-            "title": "<p>Spectrum Awakening<\/p>",
-            "collection": "automated-collection"
-          }
-        },
-        "brand_card_jpUQEB": {
-          "type": "brand_card",
-          "settings": {
-            "brand_image": "shopify:\/\/shop_images\/Rectangle_41.png",
-            "title": "<p>ANRC<\/p>",
-            "collection": "test-collection"
-          }
-        },
-        "brand_card_DwhCVB": {
-          "type": "brand_card",
-          "settings": {
-            "brand_image": "shopify:\/\/shop_images\/Rectangle_42_dd155a71-87df-4b28-9aa2-5573a4d9ae67.png",
-            "title": "<p>Biom<\/p>",
-            "collection": "hydrogen"
-          }
-        }
-      },
-      "block_order": [
-        "brand_card_m7W9Qz",
-        "brand_card_cbfi4V",
-        "brand_card_jpUQEB",
-        "brand_card_DwhCVB"
-      ],
-      "settings": {
-        "section_heading": "",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_cFjgRm": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_RXziq3": {
+        "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Lorem ipsum dolor sit amet cons ectetur acus sit amet",
-            "heading_size": "h1"
+            "heading": "Browse our latest products",
+            "heading_size": "h0"
           }
         },
-        "text_VMfEhf": {
-          "type": "text",
+        "button": {
+          "type": "buttons",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_HkxN6F": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections",
-            "button_style_secondary": false
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_RXziq3",
-        "text_VMfEhf",
-        "button_HkxN6F"
+        "heading",
+        "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yams_-_2024-05-21T174334_1.png",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-15faa612-5dbf-4786-b230-f99c6c609193",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
-    "feature_collection_new_LLcTET": {
-      "type": "feature-collection-new",
+    "featured_collection": {
+      "type": "featured-collection",
       "settings": {
-        "heading": "<p>Collection<\/p>",
-        "collection": "test-collection",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "brand_collection_KcGM93": {
-      "type": "brand-collection",
-      "blocks": {
-        "brand_collection_YkgKkd": {
-          "type": "brand_collection",
-          "settings": {
-            "product_image": "shopify:\/\/shop_images\/Untitleddesign_97.png",
-            "collection": "automated-collection",
-            "title": "Neurobiologix",
-            "button_text": "Explore Brand"
-          }
-        },
-        "brand_collection_Jfk9iq": {
-          "type": "brand_collection",
-          "settings": {
-            "product_image": "shopify:\/\/shop_images\/Untitleddesign_4.png",
-            "collection": "automated-collection",
-            "title": "Meraki BLU",
-            "button_text": "Explore Brand"
-          }
-        },
-        "brand_collection_kPKkBE": {
-          "type": "brand_collection",
-          "settings": {
-            "product_image": "shopify:\/\/shop_images\/Untitleddesign_97.png",
-            "collection": "hydrogen",
-            "title": "Probiotics",
-            "button_text": "Explore Brand"
-          }
-        },
-        "brand_collection_6KdgUb": {
-          "type": "brand_collection",
-          "settings": {
-            "product_image": "shopify:\/\/shop_images\/image_9_1.png",
-            "collection": "automated-collection",
-            "title": "Metabolics",
-            "button_text": "Explore Brand"
-          }
-        }
-      },
-      "block_order": [
-        "brand_collection_YkgKkd",
-        "brand_collection_Jfk9iq",
-        "brand_collection_kPKkBE",
-        "brand_collection_6KdgUb"
-      ],
-      "settings": {
-        "heading": "<p>Rich text<\/p>",
-        "section_color_scheme": "scheme-2",
-        "color_scheme": "scheme-2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "explore_x4yEN3": {
-      "type": "explore",
-      "settings": {
-        "image_1": "shopify:\/\/shop_images\/Group_1000007082.png",
-        "link_1": "shopify:\/\/collections",
-        "image_2": "shopify:\/\/shop_images\/Group_1000007078.png",
-        "link_2": "shopify:\/\/collections\/hydrogen",
-        "image_3": "shopify:\/\/shop_images\/Group_1000007081.png",
-        "link_3": "shopify:\/\/collections\/test-collection",
-        "image_4": "shopify:\/\/shop_images\/Group_1000007080.png",
-        "link_4": "shopify:\/\/collections\/automated-collection",
-        "h4_text": "Explore all categories",
-        "h4_link": "shopify:\/\/collections"
-      }
-    },
-    "featured_blog_7erEdD": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "Blog posts",
-        "heading_size": "h1",
-        "blog": "news",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "scheme-d9463c4f-4a09-4474-9ce1-b3fbc218e510",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
         "show_view_all": true,
-        "padding_top": 36,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "hero_carousel_jJbign",
-    "featured_collection_banner_gFBFc8",
-    "feature_collection_new_QTkntz",
-    "brand_collection_list_two_LqJhj3",
-    "image_with_text_cFjgRm",
-    "feature_collection_new_LLcTET",
-    "brand_collection_KcGM93",
-    "explore_x4yEN3",
-    "featured_blog_7erEdD"
+    "image_banner",
+    "featured_collection"
   ]
 }

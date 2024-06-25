@@ -13,54 +13,8 @@
   "sections": {
     "footer": {
       "type": "footer",
-      "blocks": {
-        "brand_info_8teFWN": {
-          "type": "brand-info",
-          "settings": {
-            "brand_logo": "shopify:\/\/shop_images\/image_15_1.png",
-            "copyright": "Copyright © 2024, Mandi Mart. All Rights Reserved.\u2028Member of the Federation of Small Businesses : VAT No. 907545906"
-          }
-        },
-        "link_list_Ax8f4X": {
-          "type": "link_list",
-          "settings": {
-            "heading": "<strong>Account<\/strong>",
-            "menu": "footer-menu-new"
-          }
-        },
-        "link_list_JywMX6": {
-          "type": "link_list",
-          "settings": {
-            "heading": "<strong>News<\/strong>",
-            "menu": "footer"
-          }
-        },
-        "link_list_My9fHn": {
-          "type": "link_list",
-          "settings": {
-            "heading": "<strong>Information<\/strong>",
-            "menu": "information"
-          }
-        },
-        "container_irTrDT": {
-          "type": "container",
-          "settings": {
-            "disclaimer_heading": "Disclaimer",
-            "details": "Products sold here are not intended to diagnose, prevent, treat or cure any disease. Please consult your health practitioner before use.",
-            "container_color": "#074542",
-            "font_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "brand_info_8teFWN",
-        "link_list_Ax8f4X",
-        "link_list_JywMX6",
-        "link_list_My9fHn",
-        "container_irTrDT"
-      ],
       "settings": {
-        "color_scheme": "scheme-15faa612-5dbf-4786-b230-f99c6c609193"
+        "color_scheme": "scheme-1"
       }
     }
   },
