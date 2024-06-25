@@ -8,7 +8,7 @@
       {% if block.settings == 'brand_card' %}
         <div class="brand-card__wrapper">
           <div class="brand-logo__wrapper">
-            <img src="{{ block.settings.brand_image }}">
+            <img src="{{ block.settings.brand_image |  img_url: 'medium' }}" class="">
           </div>
         </div>
       {% endif %}
