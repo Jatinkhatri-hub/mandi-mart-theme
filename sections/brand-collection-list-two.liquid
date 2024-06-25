@@ -1,0 +1,36 @@
+{% schema %}
+  {
+    "name": "Category List",
+    "settings": [
+      
+    ],
+    "blocks": [
+      {
+        "type": "collection_card",
+        "name": "Collection Card",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "banner_image",
+            "label": "Banner Image"
+          }, {
+            "type": "richtext",
+            "id": "title",
+            "label": "Collection Title",
+            "default": "<p>Collection</p>"
+          }, {
+            "type": "collection",
+            "id": "collection",
+            "label": "Collection"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Brand List",
+        "category": "Section"
+      }
+    ]
+  }
+{% endschema %}
