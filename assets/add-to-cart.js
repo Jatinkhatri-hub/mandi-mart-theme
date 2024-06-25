@@ -25,4 +25,5 @@ function addToCart(variantId) {
       }]
     })
   })
+  .then(response =)
 }
