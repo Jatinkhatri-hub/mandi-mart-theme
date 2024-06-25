@@ -99,11 +99,31 @@
       ],
       "settings": {
       }
+    },
+    "brand_collection_list_two_n7tygh": {
+      "type": "brand-collection-list-two",
+      "blocks": {
+        "brand_card_6fExNL": {
+          "type": "brand_card",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/image_29.png",
+            "title": "<p>Collection<\/p>",
+            "collection": "automated-collection"
+          }
+        }
+      },
+      "block_order": [
+        "brand_card_6fExNL"
+      ],
+      "settings": {
+        "section_heading": "Brand"
+      }
     }
   },
   "order": [
     "hero_carousel_jUMLBp",
     "feature_collection_new_PAhUET",
-    "featured_collection_banner_JYUacz"
+    "featured_collection_banner_JYUacz",
+    "brand_collection_list_two_n7tygh"
   ]
 }
