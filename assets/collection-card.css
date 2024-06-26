@@ -36,8 +36,9 @@
   font-size: 37px;
   font-weight: 700;
   color: rgb(var(--color-foreground));
-  margin: 0;
 }
+
+.collection__card--wrapper ]
 
 @media screen and (max-width: 769px){
   .collection__card--img-wrapper {
