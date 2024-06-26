@@ -28,7 +28,9 @@
   top: 10px;
   left: 10px;
   display: flex;
-  
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .product-card__badge-container {
