@@ -32,7 +32,7 @@
 .product-card__badge-container {
   font-weight: 12px;
   font-weight: 600;
-  
+  border-radius: 4px;
 }
 
 .container__product-image{
