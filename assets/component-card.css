@@ -305,6 +305,10 @@
   margin-bottom: 0;
 }
 
+.card__heading.custom {
+  font-size: ;
+}
+
 .card__heading:last-child {
   margin-bottom: 0;
 }
