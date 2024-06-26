@@ -62,7 +62,7 @@
         "collection_card_hPr7Xx": {
           "type": "collection_card",
           "settings": {
-            "banner_image": "shopify:\/\/shop_images\/60_Sale_2.png",
+            "banner_image": "shopify:\/\/shop_images\/Group_1000007089.png",
             "title": "<p>Clearance<\/p>",
             "collection": "automated-collection"
           }
@@ -100,10 +100,10 @@
     "feature_collection_new_YPdr3x": {
       "type": "feature-collection-new",
       "settings": {
-        "heading": "<p>Collection<\/p>",
+        "heading": "<p>Featured Products<\/p>",
         "collection": "test-collection",
         "section_color_scheme": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-1386cdd0-275b-43f5-b98d-fcdbe4d52508",
         "padding_top": 36,
         "padding_bottom": 36
       }
