@@ -2,13 +2,12 @@
 <div class="container__product-card">
   <div class="product-card__badges-container">
     {%  assign original_price =  product.price %}
-    {{ original_price }}
-
     {% assign current_price = product.compare_at_price %}
 
     {% assign savings = originaprice | minus: current_price %}
     {%  assign savings_percentage = savings | time: 100 |
-     divided_by: product.compare_at_price |  abs %} 
+     divided_by: product.compare_at_price |  abs %}
+      
     {% if savings_percentage > 0 %}
       <div class="product-card__badge-container" style="background-color: FF6b88">
         <span>SALE</span> {{ savings_percentage |  round }}%
