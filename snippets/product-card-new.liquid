@@ -1,21 +1,18 @@
 
 <div class="container__product-card">
   <div class="product-card__badges-container">
-    {% if product.price > product.compare_at_price %}
-    {%  assign original_price =  product.price %}
-    {% assign current_price = product.compare_at_price %}
-
-    {% assign savings = original_price | minus: current_price %}
-    {%  assign savings_percentage = savings | time: 100 |
-     divided_by: original_price |  abs %}
-     {{ savings_percentage }} 
-    {% if savings_percentage > 0 %}
-      <div class="product-card__badge-container" style="background-color: FF6b88">
-        <span>SALE</span> {{ savings_percentage |  round }}%
+    {% assign original_price = product.compare_at_price %}
+    {% assign current_price = product.price %}
+  
+    {% if original_price > current_price %}
+      {% assign savings = original_price | minus: current_price %}
+      {% assign savings_percentage = savings | times: 100 | divided_by: original_price | abs %}
+      {% assign savings_percentage_rounded = savings_percentage | round %}
+  
+      <div class="product-card__badge-container" style="background-color: #FF6b88">
+        <span>SALE</span> {{ savings_percentage_rounded }}%
       </div>
     {% endif %}
-
-  {% endif %}
   </div>
   <div class="container__product-image">
     <img src="{{ product.featured_image |  img_url: 'medium' }}" class="product-image" />
