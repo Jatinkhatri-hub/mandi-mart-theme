@@ -29,6 +29,10 @@
   left: 10px;
 }
 
+.product-card__badge-container {
+  
+}
+
 .container__product-image{
   display: flex;
   justify-content: center;
