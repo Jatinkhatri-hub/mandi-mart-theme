@@ -35,7 +35,7 @@
       
       {% if block.type == "link_list" %}
         
-        <div class="footer-column" style="grid-area: {{ 1 | plu }};"> 
+        <div class="footer-column" style="grid-area: {{ 0 |  plus: 1 }};"> 
           <h2>{{ block.settings.heading }}</h2>
           {% for link in block.settings.menu.links %}
             <li>
