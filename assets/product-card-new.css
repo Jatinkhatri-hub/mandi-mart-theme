@@ -109,7 +109,7 @@
 
 .atc-button:hover {
   background-color: rgb(var(--color-foreground));
-  
+  color: rgb(var(--color-foreground)));
 }
 
 
