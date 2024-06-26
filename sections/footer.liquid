@@ -34,8 +34,8 @@
     {%  assign grid_area_no = 0 %} 
     {% for block in section.blocks %}
       {% if block.type == "link_list" %}
-        
-        <div class="footer-column" style="grid-area: menu-{{ grid_area_no |  plus: 1 }};"> 
+        {% assign grid_area_no = grid_area_no | plus: 1%} 
+        <div class="footer-column" style="grid-area: menu-{{ grid_area_no }};"> 
           <h2>{{ block.settings.heading }}</h2>
           {% for link in block.settings.menu.links %}
             <li>
