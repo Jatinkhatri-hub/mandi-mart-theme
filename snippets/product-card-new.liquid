@@ -1,6 +1,6 @@
 
 <div class="container__product-card">
-  <div class="product-card__badge-container">
+  <div class="product-card__badges-container">
     {%  assign original_price =  product.price %}
     {% assign current_price = product.compare_at_price %}
     
@@ -8,7 +8,7 @@
     {%  assign savings_percentage = savings | time: 100 
      divided_by: current_price |  abs %} 
     {% if savings_percentage > 0 %}
-      <div class="product-card__badge-c"></div>
+      <div class="product-card__badge"></div>
     {% endif %}
   </div>
   <div class="container__product-image">
