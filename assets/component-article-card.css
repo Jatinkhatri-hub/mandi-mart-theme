@@ -143,5 +143,7 @@
 
 /* COMPONENT ARTICAL CARD CUSTOM*/
 @media screen and (max-width: 769px) {
-    
+  .card__heading.custom {
+    font-size: 18px;
+  }
 }
