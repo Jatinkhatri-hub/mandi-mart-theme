@@ -8,7 +8,9 @@
     {%  assign savings_percentage = savings | time: 100 
      divided_by: current_price |  abs %} 
     {% if savings_percentage > 0 %}
-      <div class="product-card__badge-container" style="background-color: FF6b88"></div>
+      <div class="product-card__badge-container" style="background-color: FF6b88">
+        <span></span>
+      </div>
     {% endif %}
   </div>
   <div class="container__product-image">
