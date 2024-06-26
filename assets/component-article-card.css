@@ -159,9 +159,12 @@
   .article-card__read-more {
     font-size: 20px;
     font-weight: 600;
+    display: flex;
+    align-items: center;
   }
 
   .article-card__read-more svg {
     width: 20px;
+    height: 20px;
   }
 }
