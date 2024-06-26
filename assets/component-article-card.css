@@ -161,5 +161,7 @@
     font-weight: 600;
   }
 
-  .article-card-re
+  .article-card__read-more svg {
+    width: 20px;
+  }
 }
