@@ -155,6 +155,10 @@
   .product-grid-2 {
     grid-template-rows: repeat(1, 1fr) !important;
   }
+
+  .product-card__badge-container{
+    font-size: 1;
+  }
   
 }
 
