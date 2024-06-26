@@ -178,7 +178,7 @@
         "button_yL6FTT": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Shop Now",
             "button_link": "shopify:\/\/collections",
             "button_style_secondary": false
           }
