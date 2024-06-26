@@ -107,11 +107,129 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "brand_collection_list_two_CaKgit": {
+      "type": "brand-collection-list-two",
+      "blocks": {
+        "brand_card_q8bhAH": {
+          "type": "brand_card",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/image_29.png",
+            "title": "<p>Aspire Nutrition<\/p>",
+            "collection": "automated-collection"
+          }
+        },
+        "brand_card_Nw3VgE": {
+          "type": "brand_card",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/image_30.png",
+            "title": "<p>Spectrum Awakening<\/p>",
+            "collection": ""
+          }
+        },
+        "brand_card_nG4zNT": {
+          "type": "brand_card",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/Rectangle_41.png",
+            "title": "<p>ANRC<\/p>",
+            "collection": "frontpage"
+          }
+        },
+        "brand_card_aGWya4": {
+          "type": "brand_card",
+          "settings": {
+            "brand_image": "shopify:\/\/shop_images\/Rectangle_42_dd155a71-87df-4b28-9aa2-5573a4d9ae67.png",
+            "title": "<p>Biom<\/p>",
+            "collection": "test-collection"
+          }
+        }
+      },
+      "block_order": [
+        "brand_card_q8bhAH",
+        "brand_card_Nw3VgE",
+        "brand_card_nG4zNT",
+        "brand_card_aGWya4"
+      ],
+      "settings": {
+        "section_heading": "Brand",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "feature_collection_new_xzxAJK": {
+      "type": "feature-collection-new",
+      "settings": {
+        "heading": "<p>Best Seller<\/p>",
+        "collection": "automated-collection",
+        "section_color_scheme": "",
+        "color_scheme": "scheme-1386cdd0-275b-43f5-b98d-fcdbe4d52508",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "brand_collection_rKywnk": {
+      "type": "brand-collection",
+      "blocks": {
+        "brand_collection_67GHFy": {
+          "type": "brand_collection",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/Untitleddesign_97.png",
+            "collection": "hydrogen",
+            "title": "Neurobiologix",
+            "button_text": "Explore Brand"
+          }
+        },
+        "brand_collection_BXeTt6": {
+          "type": "brand_collection",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/Untitleddesign_4.png",
+            "collection": "test-collection",
+            "title": "Meraki Blu",
+            "button_text": "Explore Brand"
+          }
+        },
+        "brand_collection_UnMfip": {
+          "type": "brand_collection",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/image_9_1.png",
+            "collection": "test-collection",
+            "title": "Metabolics",
+            "button_text": "Explore Brand"
+          }
+        },
+        "brand_collection_kA4ahD": {
+          "type": "brand_collection",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/image_9_2.png",
+            "collection": "automated-collection",
+            "title": "Probiotics",
+            "button_text": "Explore Brand"
+          }
+        }
+      },
+      "block_order": [
+        "brand_collection_67GHFy",
+        "brand_collection_BXeTt6",
+        "brand_collection_UnMfip",
+        "brand_collection_kA4ahD"
+      ],
+      "settings": {
+        "heading": "<p>Explore Our Top Brands<\/p>",
+        "section_color_scheme": "",
+        "color_scheme": "scheme-1386cdd0-275b-43f5-b98d-fcdbe4d52508",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "hero_carousel_8Mz3Jk",
     "featured_collection_banner_4PA3Ec",
-    "feature_collection_new_YPdr3x"
+    "feature_collection_new_YPdr3x",
+    "brand_collection_list_two_CaKgit",
+    "feature_collection_new_xzxAJK",
+    "brand_collection_rKywnk"
   ]
 }
