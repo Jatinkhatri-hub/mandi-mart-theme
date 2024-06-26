@@ -399,7 +399,7 @@
   --border-offset: 0;
   font-size: 20px;
   font-weight: 600;
-  padding: 2.5rem 10rem;
+  padding: 2rem 9rem;
 }
 
 @media screen and (max-width: 749px) {
