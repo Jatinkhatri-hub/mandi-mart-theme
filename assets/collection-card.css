@@ -38,7 +38,9 @@
   color: rgb(var(--color-foreground));
 }
 
-.collection__card--wrapper ]
+.collection__card--wrapper {
+  
+}
 
 @media screen and (max-width: 769px){
   .collection__card--img-wrapper {
