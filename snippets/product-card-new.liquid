@@ -26,8 +26,8 @@
     </div>
   </a>
   <div class="container__product-info">
+    <a class="product-card__url" href="{{product.url}}">
     <div class="container__product-review">
-      <a class="product-card__url" href="{{product.url}}">
       <span>Meraki Medicinal</span>
       <div class="container__review-stars">
         <img src="{{ 'star.png' |  asset_url }}" />
@@ -40,7 +40,7 @@
     <div class="container__product-title">
       <span>{{ product.title }}</span>
     </div>
-    
+    </a>
     <div class="container__price-and-button">
       <div class="container__product-price">
         <span>{{ product.price | money }}</span>
