@@ -7,8 +7,9 @@
     {% assign savings = original_price |  minus: current_price %}
     {%  assign savings_percentage = savings | time: 100 
      divided_by: current_price |  abs %} 
-    {}
-
+    {% if savings_percentage > 0 %}
+      <span></span>
+    {% endif %}
   </div>
   <div class="container__product-image">
     <img src="{{ product.featured_image |  img_url: 'medium' }}" class="product-image" />
