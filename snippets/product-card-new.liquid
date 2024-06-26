@@ -14,7 +14,9 @@
       </div>
     {% endif %}
 
-  {% if product.metafields.custom.product_card_badge_color %} {% endif %}
+  {% if product.metafields.custom.product_card_badge_text %}
+    <
+  {% endif %}
   </div>
   <div class="container__product-image">
     <img src="{{ product.featured_image |  img_url: 'medium' }}" class="product-image" />
