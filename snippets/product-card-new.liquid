@@ -1,7 +1,8 @@
 
 <div class="container__product-card">
   <div class="product-card__badge-container">
-    {%  assign original_price =  product. %}
+    {%  assign original_price =  product.price %}
+    {% assign current = value %}  
   </div>
   <div class="container__product-image">
     <img src="{{ product.featured_image |  img_url: 'medium' }}" class="product-image" />
