@@ -3,8 +3,10 @@
   <div class="product-card__badges-container">
     {%  assign original_price =  product.price %}
     {{ original_price }}
-    
+
     {% assign current_price = product.compare_at_price %}
+
+    {{ current_price }}
     
     {% assign savings = originaprice |  l_minus: current_price %}
     {%  assign savings_percentage = savings | time: 100 |
