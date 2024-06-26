@@ -11,6 +11,10 @@
   grid-template-rows: repeat(2, 1fr);
 }
 
+.product-card__url {
+  text-decoration: none;
+}
+
 
 
 .container__product-card {
