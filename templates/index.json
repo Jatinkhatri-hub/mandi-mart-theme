@@ -91,8 +91,8 @@
         "collection_card_PX4pkg"
       ],
       "settings": {
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -151,7 +151,7 @@
         "brand_card_aGWya4"
       ],
       "settings": {
-        "section_heading": "Brand",
+        "section_heading": "",
         "section_color_scheme": "",
         "color_scheme": "",
         "padding_top": 36,
