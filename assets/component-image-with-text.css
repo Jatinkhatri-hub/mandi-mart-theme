@@ -395,9 +395,9 @@
 
 .button--primary-custom {
   border: none;
-  border-radius: 22px;
+  border-radius: 30px;
   --border-offset: 0;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
   padding: 2.5rem 10rem;
 }
