@@ -93,13 +93,13 @@
 @media screen and (max-width: 769px){ 
 
  .container__product-card{
-    width: 180px;
+    width: 175px;
     height: 375px;
   }
 
 
   .product-grid {
-    grid-template-columns: repeat(2, 180px);
+    grid-template-columns: repeat(2, 175px);
     grid-template-rows: repeat(4, 1fr);
     align-items: center;
     justify-content: center;
