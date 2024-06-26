@@ -25,6 +25,7 @@
 
 .product-card__badges-container {
   position: absolute;
+  top: 10px;
   
 }
 
