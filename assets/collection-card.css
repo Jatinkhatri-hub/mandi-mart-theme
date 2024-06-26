@@ -38,8 +38,8 @@
   color: rgb(var(--color-foreground));
 }
 
-.collection__card--wrapper {
-  
+.collection__card--wrapper h2 {
+  width: 0;
 }
 
 @media screen and (max-width: 769px){
