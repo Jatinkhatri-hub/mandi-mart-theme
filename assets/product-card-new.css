@@ -162,6 +162,7 @@
 
   .product-card__badge-container{
     font-size: 12px;
+    padding: 1rem;
   }
   
 }
