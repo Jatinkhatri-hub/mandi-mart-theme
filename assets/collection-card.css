@@ -39,7 +39,7 @@
 }
 
 .collection__card--wrapper h2 {
-  width: 0;
+  margin: 0;
 }
 
 @media screen and (max-width: 769px){
