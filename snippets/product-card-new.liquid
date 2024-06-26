@@ -15,7 +15,9 @@
     {% endif %}
 
   {% if product.metafields.custom.product_card_badge_text %}
-  <div class="product_card__badge-container" style="background-color: {{ product.metafields.custom.product_card_badge_color.value |  color_to_hex }}"></div>
+  <div class="product_card__badge-container" style="background-color: {{ product.metafields.custom.product_card_badge_color.value |  color_to_hex }}; ">
+    
+  </div>
   {% endif %}
   </div>
   <div class="container__product-image">
