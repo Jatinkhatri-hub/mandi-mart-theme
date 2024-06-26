@@ -379,11 +379,14 @@
 
 .image-with-text__heading-custom {
   font-weight: 600;
-  font-size: 24px;
 }
 
 @media screen and (max-width: 769px) {
-  font-size: 24px;
+  
+  .image-with-text__heading-custom {
+    font-weight: 600;
+    font-size: 24px;
+  }
   
 }
 
