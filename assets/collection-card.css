@@ -36,6 +36,7 @@
   font-size: 37px;
   font-weight: 700;
   color: rgb(var(--color-foreground));
+  margin: 0;
 }
 
 @media screen and (max-width: 769px){
