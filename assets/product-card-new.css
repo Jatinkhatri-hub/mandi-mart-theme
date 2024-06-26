@@ -23,7 +23,10 @@
   position: relative;
 }
 
-.pr
+.product-card__badges-container {
+  position: absolute;
+  
+}
 
 .container__product-image{
   display: flex;
