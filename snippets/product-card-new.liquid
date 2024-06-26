@@ -5,7 +5,7 @@
     {% assign current_price = product.compare_at_price %}
 
     {% assign savings = originaprice | minus: current_price %}
-    {%  assign savings_percentage = savings | time: 1 |
+    {%  assign savings_percentage = savings | time: 100 |
      divided_by: original_price |  abs %}
      {{ savings_percentage }} 
     {% if savings_percentage > 0 %}
