@@ -6,7 +6,7 @@
 
 .product-grid {
   display: grid;
-  gap: 10px;
+  gap: 20px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
@@ -20,7 +20,10 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
+
+.pr
 
 .container__product-image{
   display: flex;
