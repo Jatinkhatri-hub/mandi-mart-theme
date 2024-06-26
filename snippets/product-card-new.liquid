@@ -9,7 +9,7 @@
       {% assign savings_percentage = savings | times: 100 | divided_by: original_price | abs %}
       {% assign savings_percentage_rounded = savings_percentage | round %}
   
-      <div class="product-card__badge-container" style="background-color: #FF6b88">
+      <div class="product-card__badge-container" style="background-color: #FF6b88; color: white">
         <span>SALE</span> {{ savings_percentage_rounded }}%
       </div>
     {% endif %}
