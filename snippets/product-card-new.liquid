@@ -5,7 +5,8 @@
     {% assign current_price = product.compare_at_price %}
     
     {% assign savings = original_price |  minus: current_price %}
-    {%  assign savings_percentage = sa %} 
+    {%  assign savings_percentage = savings | time: 100 
+     divided_by: %} 
   </div>
   <div class="container__product-image">
     <img src="{{ product.featured_image |  img_url: 'medium' }}" class="product-image" />
