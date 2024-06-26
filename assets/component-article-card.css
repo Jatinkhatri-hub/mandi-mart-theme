@@ -147,5 +147,7 @@
     font-size: 18px;
   }
 
-  .art
+  .article-card__info.custom {
+    font-size: 10px;
+  }
 }
