@@ -409,6 +409,10 @@
   padding: 2rem 9rem;
 }
 
+.button--primary-custom:after {
+  border-radius: 30px
+}
+
 @media screen and (max-width: 749px) {
   .collapse-padding .image-with-text__grid .image-with-text__content {
     padding-left: 0;
