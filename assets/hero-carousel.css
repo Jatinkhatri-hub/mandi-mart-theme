@@ -40,7 +40,7 @@ body {
     color: #008780;
     font-size: 2rem;
     cursor: pointer;
-    z-index: 10;
+    z-index: 3;
 }
 
 .hero-carousel button:hover {
