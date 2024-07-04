@@ -9,313 +9,76 @@
 */
 {
   "sections": {
-    "hero_carousel_8Mz3Jk": {
-      "type": "hero-carousel",
+    "image_banner": {
+      "type": "image-banner",
       "blocks": {
-        "image_f8Bfm6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/yellow-winner-podium-pedestal-showcase-product-space-presentation-background-3d-rendering_copy_3_466d1b3a-ada9-4e38-81e6-8da3eeb41cbe.png",
-            "alt": "Slide",
-            "carousel_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-            "carousel_sub_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, architecto. Atque voluptate delectus deleniti labore laborum?",
-            "carousel_list_item_1": "Lorem ipsum dolor",
-            "carousel_list_item_2": "Lorem ipsum dolor",
-            "carousel_list_item_3": "Lorem ipsum dolor",
-            "carousel_button_text": "CTA TEXT",
-            "carousel_alignment": "left"
-          }
-        },
-        "image_mzHcfP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/theme_cover_image.jpg",
-            "alt": "Slide",
-            "carousel_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
-            "carousel_sub_heading": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, architecto. Atque voluptate delectus deleniti labore laborum?",
-            "carousel_list_item_1": "Lorem ipsum dolor",
-            "carousel_list_item_2": "Lorem ipsum dolor",
-            "carousel_list_item_3": "Lorem ipsum dolor",
-            "carousel_button_text": "CTA TEXT",
-            "carousel_alignment": "left"
-          }
-        }
-      },
-      "block_order": [
-        "image_f8Bfm6",
-        "image_mzHcfP"
-      ],
-      "settings": {
-      }
-    },
-    "featured_collection_banner_4PA3Ec": {
-      "type": "featured-collection-banner",
-      "blocks": {
-        "collection_card_4DRDmN": {
-          "type": "collection_card",
-          "settings": {
-            "banner_image": "shopify:\/\/shop_images\/Ellipse_218.png",
-            "title": "<p>Best Sellers<\/p>",
-            "collection": "automated-collection"
-          }
-        },
-        "collection_card_hPr7Xx": {
-          "type": "collection_card",
-          "settings": {
-            "banner_image": "shopify:\/\/shop_images\/Group_1000007089.png",
-            "title": "<p>Clearance<\/p>",
-            "collection": "automated-collection"
-          }
-        },
-        "collection_card_BNVJYK": {
-          "type": "collection_card",
-          "settings": {
-            "banner_image": "shopify:\/\/shop_images\/Ellipse_219.png",
-            "title": "<p>New Products<\/p>",
-            "collection": ""
-          }
-        },
-        "collection_card_PX4pkg": {
-          "type": "collection_card",
-          "settings": {
-            "banner_image": "shopify:\/\/shop_images\/Untitleddesign_97.png",
-            "title": "<p>All Brands<\/p>",
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_card_4DRDmN",
-        "collection_card_hPr7Xx",
-        "collection_card_BNVJYK",
-        "collection_card_PX4pkg"
-      ],
-      "settings": {
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "feature_collection_new_YPdr3x": {
-      "type": "feature-collection-new",
-      "settings": {
-        "heading": "<p>Featured Products<\/p>",
-        "collection": "test-collection",
-        "section_color_scheme": "",
-        "color_scheme": "scheme-1386cdd0-275b-43f5-b98d-fcdbe4d52508",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "brand_collection_list_two_CaKgit": {
-      "type": "brand-collection-list-two",
-      "blocks": {
-        "brand_card_q8bhAH": {
-          "type": "brand_card",
-          "settings": {
-            "brand_image": "shopify:\/\/shop_images\/image_29.png",
-            "title": "<p>Aspire Nutrition<\/p>",
-            "collection": "automated-collection"
-          }
-        },
-        "brand_card_Nw3VgE": {
-          "type": "brand_card",
-          "settings": {
-            "brand_image": "shopify:\/\/shop_images\/image_30.png",
-            "title": "<p>Spectrum Awakening<\/p>",
-            "collection": ""
-          }
-        },
-        "brand_card_nG4zNT": {
-          "type": "brand_card",
-          "settings": {
-            "brand_image": "shopify:\/\/shop_images\/Rectangle_41.png",
-            "title": "<p>ANRC<\/p>",
-            "collection": "frontpage"
-          }
-        },
-        "brand_card_aGWya4": {
-          "type": "brand_card",
-          "settings": {
-            "brand_image": "shopify:\/\/shop_images\/Rectangle_42_dd155a71-87df-4b28-9aa2-5573a4d9ae67.png",
-            "title": "<p>Biom<\/p>",
-            "collection": "test-collection"
-          }
-        }
-      },
-      "block_order": [
-        "brand_card_q8bhAH",
-        "brand_card_Nw3VgE",
-        "brand_card_nG4zNT",
-        "brand_card_aGWya4"
-      ],
-      "settings": {
-        "section_heading": "",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_pejtfX": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_XbFPDy": {
+        "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
+            "heading": "Browse our latest products",
+            "heading_size": "h0"
           }
         },
-        "text_qDUVwX": {
-          "type": "text",
+        "button": {
+          "type": "buttons",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_yL6FTT": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections",
-            "button_style_secondary": false
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_XbFPDy",
-        "text_qDUVwX",
-        "button_yL6FTT"
+        "heading",
+        "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Yams_-_2024-05-21T174334_1.png",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "scheme-8bb24046-9c3e-48c5-bf3a-ef26c0f573be",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
-    "feature_collection_new_xzxAJK": {
-      "type": "feature-collection-new",
+    "featured_collection": {
+      "type": "featured-collection",
       "settings": {
-        "heading": "<p>Best Seller<\/p>",
-        "collection": "automated-collection",
-        "section_color_scheme": "",
-        "color_scheme": "scheme-1386cdd0-275b-43f5-b98d-fcdbe4d52508",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "brand_collection_rKywnk": {
-      "type": "brand-collection",
-      "blocks": {
-        "brand_collection_67GHFy": {
-          "type": "brand_collection",
-          "settings": {
-            "product_image": "shopify:\/\/shop_images\/Untitleddesign_97.png",
-            "collection": "hydrogen",
-            "title": "Neurobiologix",
-            "button_text": "Explore Brand"
-          }
-        },
-        "brand_collection_BXeTt6": {
-          "type": "brand_collection",
-          "settings": {
-            "product_image": "shopify:\/\/shop_images\/Untitleddesign_4.png",
-            "collection": "test-collection",
-            "title": "Meraki Blu",
-            "button_text": "Explore Brand"
-          }
-        },
-        "brand_collection_UnMfip": {
-          "type": "brand_collection",
-          "settings": {
-            "product_image": "shopify:\/\/shop_images\/image_9_1.png",
-            "collection": "test-collection",
-            "title": "Metabolics",
-            "button_text": "Explore Brand"
-          }
-        },
-        "brand_collection_kA4ahD": {
-          "type": "brand_collection",
-          "settings": {
-            "product_image": "shopify:\/\/shop_images\/image_9_2.png",
-            "collection": "automated-collection",
-            "title": "Probiotics",
-            "button_text": "Explore Brand"
-          }
-        }
-      },
-      "block_order": [
-        "brand_collection_67GHFy",
-        "brand_collection_BXeTt6",
-        "brand_collection_UnMfip",
-        "brand_collection_kA4ahD"
-      ],
-      "settings": {
-        "heading": "<p>Explore Our Top Brands<\/p>",
-        "section_color_scheme": "scheme-80cf9682-6908-4b01-a896-80a51fe4b946",
-        "color_scheme": "scheme-80cf9682-6908-4b01-a896-80a51fe4b946",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "explore_Di9UDM": {
-      "type": "explore",
-      "settings": {
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_1": "shopify:\/\/shop_images\/Group_1000007082.png",
-        "link_1": "shopify:\/\/collections",
-        "image_2": "shopify:\/\/shop_images\/Group_1000007078.png",
-        "link_2": "shopify:\/\/collections",
-        "image_3": "shopify:\/\/shop_images\/Group_1000007081.png",
-        "link_3": "shopify:\/\/collections",
-        "image_4": "shopify:\/\/shop_images\/Group_1000007080.png",
-        "link_4": "shopify:\/\/collections",
-        "h4_text": "Explore all categories",
-        "h4_link": "shopify:\/\/collections",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "featured_blog_K9cMBj": {
-      "type": "featured-blog",
-      "settings": {
-        "heading": "Latest News",
-        "heading_size": "h1",
-        "blog": "news",
-        "post_limit": 3,
-        "columns_desktop": 3,
-        "color_scheme": "scheme-1386cdd0-275b-43f5-b98d-fcdbe4d52508",
-        "show_image": true,
-        "show_date": true,
-        "show_author": false,
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
         "show_view_all": true,
-        "padding_top": 36,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "hero_carousel_8Mz3Jk",
-    "featured_collection_banner_4PA3Ec",
-    "feature_collection_new_YPdr3x",
-    "brand_collection_list_two_CaKgit",
-    "image_with_text_pejtfX",
-    "feature_collection_new_xzxAJK",
-    "brand_collection_rKywnk",
-    "explore_Di9UDM",
-    "featured_blog_K9cMBj"
+    "image_banner",
+    "featured_collection"
   ]
 }
